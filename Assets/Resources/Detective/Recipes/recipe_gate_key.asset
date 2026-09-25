@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5db8261d70ea8324ca9a8720a5d4815a, type: 3}
+  m_Name: recipe_gate_key
+  m_EditorClassIdentifier: Assembly-CSharp::Detective.DetectiveReasoningRecipe
+  recipeId: gate_key_match
+  requiredClueIds:
+  - clue_dropped_key
+  - clue_gate_forced
+  resultText: "掉落的钥匙与工业区铁门的锁芯匹配，说明风衣男持有这里的钥匙。门已被撬开，无需再次开锁；这能联系他的行踪，但不能断定是谁撬了门。"
+  grantedClueId:
+  voiceChanges: []
+  failFocusCost: 10
+  onceOnly: 0
+  freeSuccess: 1

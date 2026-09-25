@@ -1,0 +1,23 @@
+{
+  "jsonrpc": "2.0",
+  "id": "627fef80-95c8-4aac-a944-8fb87eb0f97e",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":false,\"message\":\"Some properties failed to set on 'RectTransform'.\",\"data\":{\"instanceID\":163084,\"errors\":[\"Unsupported SerializedPropertyType: Vector3 at 'm_LocalScale'.\"]}}"
+      }
+    ],
+    "structuredContent": {
+      "success": false,
+      "message": "Some properties failed to set on 'RectTransform'.",
+      "data": {
+        "instanceID": 163084,
+        "errors": [
+          "Unsupported SerializedPropertyType: Vector3 at 'm_LocalScale'."
+        ]
+      }
+    },
+    "isError": false
+  }
+}

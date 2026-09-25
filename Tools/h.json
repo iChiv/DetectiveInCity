@@ -1,0 +1,44 @@
+{
+  "jsonrpc": "2.0",
+  "id": "32ed247e-2c63-4253-b26b-75451bc447c1",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Retrieved hierarchy page for scene 'I1_Bar'.\",\"data\":{\"scope\":\"roots\",\"cursor\":0,\"pageSize\":200,\"next_cursor\":null,\"truncated\":false,\"total\":1,\"items\":[{\"name\":\"I1_Bar\",\"instanceID\":130572,\"activeSelf\":true,\"activeInHierarchy\":true,\"tag\":\"Untagged\",\"layer\":0,\"isStatic\":false,\"path\":\"I1_Bar\",\"childCount\":49,\"childrenTruncated\":true,\"childrenCursor\":\"0\",\"childrenPageSizeDefault\":200,\"componentTypes\":[\"Transform\"]}]}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Retrieved hierarchy page for scene 'I1_Bar'.",
+      "data": {
+        "scope": "roots",
+        "cursor": 0,
+        "pageSize": 200,
+        "next_cursor": null,
+        "truncated": false,
+        "total": 1,
+        "items": [
+          {
+            "name": "I1_Bar",
+            "instanceID": 130572,
+            "activeSelf": true,
+            "activeInHierarchy": true,
+            "tag": "Untagged",
+            "layer": 0,
+            "isStatic": false,
+            "path": "I1_Bar",
+            "childCount": 49,
+            "childrenTruncated": true,
+            "childrenCursor": "0",
+            "childrenPageSizeDefault": 200,
+            "componentTypes": [
+              "Transform"
+            ]
+          }
+        ]
+      }
+    },
+    "isError": false
+  }
+}

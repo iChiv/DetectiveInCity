@@ -1,0 +1,23 @@
+{
+  "jsonrpc": "2.0",
+  "id": "bd1a2693-bf79-4b0e-a50d-2e74f626b13c",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":false,\"message\":\"Some properties failed to set on 'RectTransform'.\",\"data\":{\"instanceID\":163084,\"errors\":[\"Unsupported SerializedPropertyType: Vector2 at 'm_SizeDelta'.\"]}}"
+      }
+    ],
+    "structuredContent": {
+      "success": false,
+      "message": "Some properties failed to set on 'RectTransform'.",
+      "data": {
+        "instanceID": 163084,
+        "errors": [
+          "Unsupported SerializedPropertyType: Vector2 at 'm_SizeDelta'."
+        ]
+      }
+    },
+    "isError": false
+  }
+}

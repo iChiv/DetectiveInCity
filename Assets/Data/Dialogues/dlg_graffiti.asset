@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c5633ef7886ee34abec51770ecb9d61, type: 3}
+  m_Name: dlg_graffiti
+  m_EditorClassIdentifier: Assembly-CSharp::Detective.DetectiveDialogueDefinition
+  characterDefinition: {fileID: 11400000, guid: 4163d56e28bc67e45b06ebf029107da1, type: 2}
+  openingLines:
+  - "\u7EA2\u8272\u55B7\u6F06\uFF0C\u5199\u7740\u201CNC-2077 \u662F\u53DB\u5F92\u201D\u3002"
+  voicePopups:
+  - voice: 1
+    text: "NC-2077 \u662F\u4F60\u7684\u8B66\u5FBD\u7F16\u53F7\u3002\u8FD9\u662F\u5199\u7ED9\u4F60\u770B\u7684\u2014\u2014\u6709\u4EBA\u60F3\u5413\u9000\u4F60\uFF0C\u6216\u8005\u9677\u5BB3\u4F60\u3002"
+  - voice: 4
+    text: "\u8FD9\u8BF4\u7684\u6CA1\u9519\u554A\u3002\u4F60\u672C\u6765\u5C31\u662F\u53DB\u5F92\u3002\u4F60\u5FD8\u4E86\u5417\uFF1F"
+  options: []
+  grantedClueIds:
+  - clue_graffiti_traitor
+  completionFlag: dlg_graffiti_done
+  repeatLines:
+  - "\uFF08\u4F60\u5DF2\u7ECF\u8BB0\u4E0B\u8FD9\u5E45\u6D82\u9E26\u4E86\u3002\uFF09"

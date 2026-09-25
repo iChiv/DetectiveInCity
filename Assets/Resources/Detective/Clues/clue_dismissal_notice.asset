@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ed8931f95a9ea4ead061b2e18c6df3, type: 3}
+  m_Name: clue_dismissal_notice
+  m_EditorClassIdentifier: Assembly-CSharp::Detective.DetectiveClueDefinition
+  clueId: clue_dismissal_notice
+  title: "\u8B66\u5C40\u5F00\u9664\u901A\u77E5"
+  description: "\u201CNC-2077\uFF0C\u56E0\u4E09\u5E74\u524D\u5367\u5E95\u4EFB\u52A1\u5931\u8D25\uFF0C\u73B0\u4E88\u4EE5\u5F00\u9664\u5904\u7406\u3002\u201D"
+  sourceId: 
+  tags: []

@@ -1,0 +1,32 @@
+{
+  "jsonrpc": "2.0",
+  "id": "3359d462-22e7-4093-849d-8eb7ef11d46a",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":true,\"message\":\"Found GameObjects\",\"data\":{\"instanceIDs\":[163084,162832,162494,162614,162680,163300],\"pageSize\":50,\"cursor\":0,\"nextCursor\":null,\"totalCount\":6,\"hasMore\":false}}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Found GameObjects",
+      "data": {
+        "instanceIDs": [
+          163084,
+          162832,
+          162494,
+          162614,
+          162680,
+          163300
+        ],
+        "pageSize": 50,
+        "cursor": 0,
+        "nextCursor": null,
+        "totalCount": 6,
+        "hasMore": false
+      }
+    },
+    "isError": false
+  }
+}

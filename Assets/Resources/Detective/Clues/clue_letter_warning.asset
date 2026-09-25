@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ed8931f95a9ea4ead061b2e18c6df3, type: 3}
+  m_Name: clue_letter_warning
+  m_EditorClassIdentifier: Assembly-CSharp::Detective.DetectiveClueDefinition
+  clueId: clue_letter_warning
+  title: "\u4F60\u7684\u4FE1\uFF1A\u8B66\u544A"
+  description: "\u6536\u4EF6\u4EBA\uFF1A\u6211\u3002\n\n\u5982\u679C\u4F60\u8BFB\u5230\u8FD9\u5C01\u4FE1\uFF0C\u8BF4\u660E\u4F60\u53C8\u5FD8\u4E86\u3002\u73B0\u5728\u4E00\u5B9A\u8981\u542C\u597D\uFF1A\u98CE\u8863\u7537\u786E\u5B9E\u662F\u4F60\u7684\u642D\u6863\uFF0C\u4F46\u4ED6\u80CC\u53DB\u4E86\u4F60\u3002\u6B7B\u8005\u662F\u552F\u4E00\u77E5\u9053\u771F\u76F8\u7684\u4EBA\u3002\u4F60\u4ECA\u665A\u5FC5\u987B\u627E\u5230\u8BC1\u636E\u3002\u4E0D\u7136\uFF0C\u4E0B\u4E00\u4E2A\u6B7B\u7684\u5C31\u662F\u4F60\u3002\n\n\u4FE1\u7684\u6765\u6E90\u4E0E\u6307\u63A7\u4ECD\u9700\u6838\u5B9E\u3002"
+  sourceId: 
+  tags: []

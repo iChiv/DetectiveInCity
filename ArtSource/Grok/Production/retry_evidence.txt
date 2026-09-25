@@ -1,0 +1,5 @@
+用户已授权素材生成的质量修正。只生成两张替换图，依次使用原生image_gen，4:3。不要终端命令，不要子代理，不要改文件，返回路径即可。每张前标记ASSET_ID。维持前面C主菜单的电影写实蓝灰阴影和暖金光。
+ASSET_ID: evidence_badge
+A single worn silver police shield badge with a completely plain blank center on wet dark pavement. Extreme close-up, badge centered and fully visible, cinematic realistic metal and raindrops. Frame contains ONLY badge and pavement. NO paper, NO evidence label, NO exhibit number, NO letters, NO digits, NO captions, NO logos. Do not add any tags at the edges. 4:3.
+ASSET_ID: evidence_key
+A single worn brass door key with plain rectangular bow and simple small ring on damp dark concrete. Cinematic macro photograph, cool blue-gray shadows warm amber reflection, the entire key visible at center. Frame contains ONLY key, ring and concrete. NO paper, NO evidence label, NO stamped serial number, NO letters, NO digits, NO captions, NO logos. No props or tags at the edges. 4:3.

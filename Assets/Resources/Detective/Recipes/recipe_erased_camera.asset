@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5db8261d70ea8324ca9a8720a5d4815a, type: 3}
+  m_Name: recipe_erased_camera
+  m_EditorClassIdentifier: Assembly-CSharp::Detective.DetectiveReasoningRecipe
+  recipeId: erased_camera
+  requiredClueIds:
+  - clue_guard_bribed
+  - clue_deleted_footage
+  resultText: "\u4FDD\u5B89\u627F\u8BA4\u6536\u94B1\u5220\u53BB23:00\u201423:30\u7684\u5F55\u50CF\u3002\u8FD9\u6BB5\u7A7A\u767D\u662F\u4EBA\u4E3A\u5236\u9020\u7684\uFF0C\u76D1\u63A7\u7F3A\u5931\u4E0D\u80FD\u8BC1\u660E\u98CE\u8863\u7537\u6CA1\u6709\u5230\u573A\u3002"
+  grantedClueId: 
+  voiceChanges: []
+  failFocusCost: 10
+  onceOnly: 1
+  freeSuccess: 0

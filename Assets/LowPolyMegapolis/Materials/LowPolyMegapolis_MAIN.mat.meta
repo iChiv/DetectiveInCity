@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f6adc1c4f8b3c814481965688ea58145
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 195499
+  packageName: Low Poly Megapolis
+  packageVersion: 1.06
+  assetPath: Assets/LowPolyMegapolis/Materials/LowPolyMegapolis_MAIN.mat
+  uploadId: 591898

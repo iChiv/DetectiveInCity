@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c5633ef7886ee34abec51770ecb9d61, type: 3}
+  m_Name: dlg_monkey
+  m_EditorClassIdentifier: Assembly-CSharp::Detective.DetectiveDialogueDefinition
+  characterDefinition: {fileID: 11400000, guid: 2db98ed05f16fa0438576b7c1398369f, type: 2}
+  openingLines:
+  - "\u201C\u8B66\u5B98\u2026\u2026\u4F60\u8FD8\u6B20\u6211\u94B1\u3002\u4E0A\u6B21\u90A3\u6279\u8D27\uFF0C\u4F60\u8BF4\u597D\u4F60\u4F1A\u641E\u5B9A\u7684\u3002\u201D"
+  voicePopups:
+  - voice: 1
+    text: "\u4F60\u6B20\u4ED6\u94B1\u2014\u2014\u770B\u8D77\u6765\u4F60\u662F\u4ED6\u7684\u4E0A\u5BB6\u3002\u987A\u7740\u4ED6\u7684\u8BDD\u5957\u60C5\u62A5\u3002"
+  - voice: 3
+    text: "\u4F60\u662F\u8B66\u5BDF\uFF0C\u522B\u88AB\u4ED6\u7275\u7740\u8D70\u3002"
+  options:
+  - text: "\u201C\u8001\u5B50\u7684\u8D27\u5462\uFF1F\u201D"
+    voiceTag: 4
+    grantedClueIds:
+    - clue_trenchcoat_impersonates
+    voiceChanges:
+    - voice: 4
+      delta: 1
+    timeAdvanceMinutes: 0
+    timeAdvanceToMinutes: -1
+    focusDelta: 0
+    setFlags: []
+    requireFlags: []
+    forbiddenFlags: []
+    requireVoiceLevel:
+      voice: 0
+      minLevel: 0
+    requireClueCountMin: -1
+    requireClueCountMax: -1
+    startFinalDuel: 0
+    resultLines:
+    - "\u7626\u7334\u7F29\u4E86\u7F29\u8116\u5B50\uFF1A\u201C\u88AB\u3001\u88AB\u98CE\u8863\u7537\u622A\u4E86\u3002\u201D\u2014\u2014\u90A3\u6279\u8D27\u539F\u672C\u5C5E\u4E8E\u4F60\u3002\u83B7\u5F97\u7EBF\u7D22\u3010\u98CE\u8863\u7537\u5192\u5145\u4F60\u3011\u3002\u75AF\u72C2+1\u3002"
+    isTerminal: 1
+  - text: "\u201C\u6211\u662F\u8B66\u5BDF\u3002\u6628\u665A\u7684\u4E8B\u76F4\u63A5\u8BF4\uFF0C\u522B\u7ED9\u6211\u7ED5\u5F2F\u5B50\u3002\u201D"
+    voiceTag: 3
+    grantedClueIds:
+    - clue_trenchcoat_to_residential
+    voiceChanges:
+    - voice: 3
+      delta: 1
+    timeAdvanceMinutes: 0
+    timeAdvanceToMinutes: -1
+    focusDelta: 0
+    setFlags: []
+    requireFlags: []
+    forbiddenFlags: []
+    requireVoiceLevel:
+      voice: 0
+      minLevel: 0
+    requireClueCountMin: -1
+    requireClueCountMax: -1
+    startFinalDuel: 0
+    resultLines:
+    - "\u7626\u7334\u8D76\u7D27\u89E3\u91CA\uFF1A\u201C\u6628\u665A\u98CE\u8863\u7537\u6765\u8FC7\uFF0C\u62FF\u4E86\u4E00\u6279\u8D27\u5C31\u5F80\u4F4F\u5B85\u533A\u53BB\u4E86\u3002\u201D\u83B7\u5F97\u7EBF\u7D22\u3010\u98CE\u8863\u7537\u53BB\u4F4F\u5B85\u533A\u3011\u3002\u6743\u5A01+1\u3002"
+    isTerminal: 1
+  - text: "\u201C\u6211\u6B20\u4F60\u591A\u5C11\uFF1F\u201D"
+    voiceTag: 0
+    grantedClueIds:
+    - clue_info_trade
+    voiceChanges:
+    - voice: 1
+      delta: 1
+    timeAdvanceMinutes: 0
+    timeAdvanceToMinutes: -1
+    focusDelta: 0
+    setFlags: []
+    requireFlags: []
+    forbiddenFlags: []
+    requireVoiceLevel:
+      voice: 0
+      minLevel: 0
+    requireClueCountMin: -1
+    requireClueCountMax: -1
+    startFinalDuel: 0
+    resultLines:
+    - "\u201C5000\u3002\u4F46\u4F60\u4E0A\u6B21\u8BF4\u8FC7\u53EF\u4EE5\u7528\u60C5\u62A5\u62B5\u3002\u201D\u83B7\u5F97\u7EBF\u7D22\u3010\u4F60\u66FE\u7528\u60C5\u62A5\u4EA4\u6613\u3011\u3002\u903B\u8F91+1\u3002"
+    isTerminal: 1
+  grantedClueIds: []
+  completionFlag: dlg_monkey_done
+  repeatLines:
+  - "\u7626\u7334\u7F29\u5728\u89D2\u843D\u91CC\uFF0C\u4E0D\u518D\u542D\u58F0\u3002"

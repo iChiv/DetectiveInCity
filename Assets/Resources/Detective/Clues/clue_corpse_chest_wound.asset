@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ed8931f95a9ea4ead061b2e18c6df3, type: 3}
+  m_Name: clue_corpse_chest_wound
+  m_EditorClassIdentifier: Assembly-CSharp::Detective.DetectiveClueDefinition
+  clueId: clue_corpse_chest_wound
+  title: "\u5C38\u4F53\uFF1A\u80F8\u53E3\u81F4\u547D\u4F24\uFF0C\u65E0\u6323\u624E"
+  description: "\u6B7B\u8005\u80F8\u53E3\u4E00\u5200\u6BD9\u547D\uFF0C\u65E0\u6323\u624E\u75D5\u8FF9\u3002\u4F60\u8BA4\u8BC6\u4ED6\u3002"
+  sourceId: 
+  tags: []

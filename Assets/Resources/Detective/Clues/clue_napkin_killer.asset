@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ed8931f95a9ea4ead061b2e18c6df3, type: 3}
+  m_Name: clue_napkin_killer
+  m_EditorClassIdentifier: Assembly-CSharp::Detective.DetectiveClueDefinition
+  clueId: clue_napkin_killer
+  title: "\u9910\u5DFE\u7EB8\uFF1A\u51F6\u624B\u662F\u2026\u2026"
+  description: "\u4E00\u5F20\u5199\u7740\u201C\u51F6\u624B\u662F\u2026\u2026\u201D\u7684\u9910\u5DFE\u7EB8\uFF0C\u540E\u9762\u88AB\u6495\u6389\u3002"
+  sourceId: 
+  tags: []

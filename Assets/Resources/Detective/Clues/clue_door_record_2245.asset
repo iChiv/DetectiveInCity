@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ed8931f95a9ea4ead061b2e18c6df3, type: 3}
+  m_Name: clue_door_record_2245
+  m_EditorClassIdentifier: Assembly-CSharp::Detective.DetectiveClueDefinition
+  clueId: clue_door_record_2245
+  title: "\u95E8\u7981\uFF1A22:45\u6709\u4EBA\u8FDB\u5165"
+  description: "22:45 \u6709\u4EBA\u8FDB\u5165\uFF0C\u5237\u5361\u8BB0\u5F55\u663E\u793A\u662F\u4F60\u7684\u8B66\u5FBD\u7F16\u53F7\u3002"
+  sourceId: 
+  tags: []

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5db8261d70ea8324ca9a8720a5d4815a, type: 3}
+  m_Name: recipe_sleeping_pills
+  m_EditorClassIdentifier: Assembly-CSharp::Detective.DetectiveReasoningRecipe
+  recipeId: sleeping_pills
+  requiredClueIds:
+  - clue_sleeping_pills
+  - clue_sleeping_pills_empty
+  resultText: "\u4F60\u5BB6\u4E0E\u6B7B\u8005\u4F4F\u5904\u90FD\u6709\u76F8\u540C\u7684\u5B89\u7720\u836F\u74F6\u3002\u8FD9\u662F\u5171\u540C\u7528\u836F\u6216\u63A5\u89E6\u7684\u7EBF\u7D22\uFF0C\u4E0D\u80FD\u636E\u6B64\u786E\u8BA4\u662F\u8C01\u670D\u836F\uFF0C\u66F4\u4E0D\u80FD\u76F4\u63A5\u89E3\u91CA\u5168\u90E8\u8BB0\u5FC6\u7A7A\u767D\u3002"
+  grantedClueId: 
+  voiceChanges: []
+  failFocusCost: 10
+  onceOnly: 1
+  freeSuccess: 0

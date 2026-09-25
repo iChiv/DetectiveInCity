@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c5633ef7886ee34abec51770ecb9d61, type: 3}
+  m_Name: dlg_leaving_home
+  m_EditorClassIdentifier: Assembly-CSharp::Detective.DetectiveDialogueDefinition
+  characterDefinition: {fileID: 11400000, guid: 4163d56e28bc67e45b06ebf029107da1, type: 2}
+  openingLines:
+  - "\u4F60\u7AD9\u5728\u81EA\u5BB6\u95E8\u53E3\uFF0C\u624B\u63E1\u7740\u95E8\u628A\u624B\u3002\u96E8\u58F0\u9694\u7740\u95E8\u677F\u6E17\u8FDB\u6765\u3002\u63A5\u4E0B\u6765\u53BB\u54EA\uFF1F"
+  voicePopups:
+  - voice: 1
+    text: "\u65F6\u95F4\u4E0D\u591A\u4E86\u3002\u76F4\u63A5\u53BB\u6B7B\u8005\u5BB6\uFF0C\u5BB6\u5C5E\u4E5F\u8BB8\u77E5\u9053\u4E9B\u4EC0\u4E48\u3002"
+  - voice: 4
+    text: "\u5148\u53BB\u559D\u4E00\u676F\u5427\u3002\u4F60\u9700\u8981\u7F13\u4E00\u7F13\u3002"
+  - voice: 2
+    text: "\u5FC3\u91CC\u6709\u70B9\u4E0D\u5B89\u2026\u2026\u8981\u4E0D\u8981\u518D\u56DE\u5C4B\u91CC\u770B\u4E00\u773C\uFF1F"
+  options:
+  - text: "\u53BB\u6B7B\u8005\u5BB6\u95EE\u95EE\u5BB6\u5C5E\u3002"
+    voiceTag: 1
+    grantedClueIds: []
+    voiceChanges: []
+    timeAdvanceMinutes: 0
+    timeAdvanceToMinutes: -1
+    focusDelta: 0
+    setFlags:
+    - home_exit_selected
+    requireFlags: []
+    forbiddenFlags: []
+    requireVoiceLevel:
+      voice: 0
+      minLevel: 0
+    requireClueCountMin: -1
+    requireClueCountMax: -1
+    startFinalDuel: 0
+    resultLines:
+    - "\u4F60\u62C9\u5F00\u95E8\uFF0C\u8D70\u8FDB\u96E8\u91CC\u3002"
+    isTerminal: 1
+  - text: "\u5148\u53BB\u559D\u4E00\u676F\u3002"
+    voiceTag: 4
+    grantedClueIds: []
+    voiceChanges:
+    - voice: 4
+      delta: 1
+    timeAdvanceMinutes: 60
+    timeAdvanceToMinutes: -1
+    focusDelta: 0
+    setFlags:
+    - leaving_home_drink_used
+    requireFlags: []
+    forbiddenFlags:
+    - leaving_home_drink_used
+    requireVoiceLevel:
+      voice: 0
+      minLevel: 0
+    requireClueCountMin: -1
+    requireClueCountMax: -1
+    startFinalDuel: 0
+    resultLines:
+    - "\u4F60\u5728\u697C\u4E0B\u4FBF\u5229\u5E97\u4E70\u4E86\u74F6\u9152\uFF0C\u5C31\u7740\u96E8\u58F0\u704C\u4E86\u4E0B\u53BB\u3002\u65F6\u95F4\u63A8\u8FDB
+      60 \u5206\u949F\u3002\u75AF\u72C2+1\u3002"
+    isTerminal: 0
+  - text: "\u201C\u6211\u597D\u50CF\u843D\u4E86\u4E1C\u897F\u5728\u5C4B\u91CC\u3002\u201D\uFF08\u6298\u8FD4\uFF09"
+    voiceTag: 0
+    grantedClueIds: []
+    voiceChanges: []
+    timeAdvanceMinutes: 0
+    timeAdvanceToMinutes: -1
+    focusDelta: 0
+    setFlags: []
+    requireFlags: []
+    forbiddenFlags: []
+    requireVoiceLevel:
+      voice: 0
+      minLevel: 0
+    requireClueCountMin: 10
+    requireClueCountMax: -1
+    startFinalDuel: 1
+    resultLines:
+    - "\u4F60\u6298\u56DE\u5C4B\u91CC\u3002\u9ED1\u6697\u91CC\uFF0C\u98CE\u8863\u7537\u5750\u5728\u6905\u5B50\u4E0A\uFF0C\u50CF\u7B49\u4E86\u5F88\u4E45\u3002"
+    isTerminal: 1
+  - text: "\u201C\u6211\u597D\u50CF\u843D\u4E86\u4E1C\u897F\u5728\u5C4B\u91CC\u3002\u201D\uFF08\u6298\u8FD4\uFF09"
+    voiceTag: 0
+    grantedClueIds: []
+    voiceChanges:
+    - voice: 4
+      delta: 1
+    timeAdvanceMinutes: 0
+    timeAdvanceToMinutes: -1
+    focusDelta: 0
+    setFlags: []
+    requireFlags: []
+    forbiddenFlags: []
+    requireVoiceLevel:
+      voice: 0
+      minLevel: 0
+    requireClueCountMin: -1
+    requireClueCountMax: 9
+    startFinalDuel: 0
+    resultLines:
+    - "\u5C4B\u91CC\u7A7A\u65E0\u4E00\u4EBA\u3002\u684C\u4E0A\u53EA\u538B\u7740\u4E00\u5F20\u5B57\u6761\uFF1A\u201C\u6211\u5728\u7B49\u4F60\u3002\u60F3\u6E05\u695A\u518D\u6765\u3002\u201D\u75AF\u72C2+1\u3002"
+    isTerminal: 1
+  grantedClueIds: []
+  completionFlag: dlg_leaving_home_done
+  repeatLines:
+  - "\uFF08\u96E8\u8FD8\u5728\u4E0B\u3002\u8BE5\u8D70\u4E86\u3002\uFF09"

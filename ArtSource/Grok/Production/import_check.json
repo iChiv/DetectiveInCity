@@ -1,0 +1,353 @@
+[
+  {
+    "id": "portrait_hero",
+    "size": [
+      1024,
+      1024
+    ],
+    "runtime": "Assets/Resources/Detective/Art/Generated/portrait_hero.jpg",
+    "sha256": "550422dd7a49db87a82f3c1d41e01a79f14848ca49704569e372c603481e1def"
+  },
+  {
+    "id": "portrait_trenchcoat",
+    "size": [
+      1024,
+      1024
+    ],
+    "runtime": "Assets/Resources/Detective/Art/Generated/portrait_trenchcoat.jpg",
+    "sha256": "d61e493c378f1876a760b0311a8e982f7b65cfedb3e483df87ecb5be88513aa7"
+  },
+  {
+    "id": "portrait_woman",
+    "size": [
+      1024,
+      1024
+    ],
+    "runtime": "Assets/Resources/Detective/Art/Generated/portrait_woman.jpg",
+    "sha256": "ded12b1e6ed6366da188401d51f079de461b3d13253687567dbc319c124e926c"
+  },
+  {
+    "id": "portrait_bartender",
+    "size": [
+      1024,
+      1024
+    ],
+    "runtime": "Assets/Resources/Detective/Art/Generated/portrait_bartender.jpg",
+    "sha256": "2c75dc9f185c81d4e482f98d292efad6918f636b4cc5b496e36eb347ee15add0"
+  },
+  {
+    "id": "portrait_guard",
+    "size": [
+      1024,
+      1024
+    ],
+    "runtime": "Assets/Resources/Detective/Art/Generated/portrait_guard.jpg",
+    "sha256": "1a4dee8724d105e709c44c72024de45d73d213801d9b524c654167b8e9767855"
+  },
+  {
+    "id": "portrait_beggar",
+    "size": [
+      1024,
+      1024
+    ],
+    "runtime": "Assets/Resources/Detective/Art/Generated/portrait_beggar.jpg",
+    "sha256": "5621ae9dc7dcb08375bb6152b6535b8ae77d73bdfaeab855ac2687f6a8a93e60"
+  },
+  {
+    "id": "portrait_barista",
+    "size": [
+      1024,
+      1024
+    ],
+    "runtime": "Assets/Resources/Detective/Art/Generated/portrait_barista.jpg",
+    "sha256": "95f78808521923e4b0d814c63b10ad47e55b7fcfd35e684212e775fcf6b87bb2"
+  },
+  {
+    "id": "portrait_monkey",
+    "size": [
+      1024,
+      1024
+    ],
+    "runtime": "Assets/Resources/Detective/Art/Generated/portrait_monkey.jpg",
+    "sha256": "f026644988e5e33d50aab85e3eedbb8feee890ed0813cb8fb8136a78cb551dd6"
+  },
+  {
+    "id": "portrait_sniper",
+    "size": [
+      1024,
+      1024
+    ],
+    "runtime": "Assets/Resources/Detective/Art/Generated/portrait_sniper.jpg",
+    "sha256": "a7e95f4516ef39d0638fddda3f775e921093898c54c75055de92db846d4944f2"
+  },
+  {
+    "id": "portrait_wife",
+    "size": [
+      1024,
+      1024
+    ],
+    "runtime": "Assets/Resources/Detective/Art/Generated/portrait_wife.jpg",
+    "sha256": "b9e9a58b041f987a142db64e8a8bcdf553a08762eed4afeff5592e4367180a53"
+  },
+  {
+    "id": "voice_logic",
+    "size": [
+      1024,
+      1024
+    ],
+    "runtime": "Assets/Resources/Detective/Art/Generated/voice_logic.jpg",
+    "sha256": "5535b026baf1b4214b79a08c8ba0215dbf6ad6df0116aa9186d25fa75c30bfcd"
+  },
+  {
+    "id": "voice_empathy",
+    "size": [
+      1024,
+      1024
+    ],
+    "runtime": "Assets/Resources/Detective/Art/Generated/voice_empathy.jpg",
+    "sha256": "59e6cc82a38ec7da44c54c81aa25f09b18497ff0ced239b4be47b5c340cff2cb"
+  },
+  {
+    "id": "voice_authority",
+    "size": [
+      1024,
+      1024
+    ],
+    "runtime": "Assets/Resources/Detective/Art/Generated/voice_authority.jpg",
+    "sha256": "6862e9a9354fa262deff2bedcd9cb942f89a316550f28c9b26a2bbd3f5679f45"
+  },
+  {
+    "id": "voice_madness",
+    "size": [
+      1024,
+      1024
+    ],
+    "runtime": "Assets/Resources/Detective/Art/Generated/voice_madness.jpg",
+    "sha256": "ae97c480b045ef03015922621047142f18d167352890dcdcdba080fa0e7dbb02"
+  },
+  {
+    "id": "ending_a",
+    "size": [
+      1280,
+      720
+    ],
+    "runtime": "Assets/Resources/Detective/Art/Generated/ending_a.jpg",
+    "sha256": "9e9123bab2c598924a414ff5278c9b1a8a6a39683e350e0c8012b4519b002538"
+  },
+  {
+    "id": "ending_b",
+    "size": [
+      1280,
+      720
+    ],
+    "runtime": "Assets/Resources/Detective/Art/Generated/ending_b.jpg",
+    "sha256": "99c92836d9f2523efa5d4134dcc8d5c1c70ea79c49b6f179c147910022a2a8b7"
+  },
+  {
+    "id": "ending_c",
+    "size": [
+      1280,
+      720
+    ],
+    "runtime": "Assets/Resources/Detective/Art/Generated/ending_c.jpg",
+    "sha256": "55d7c01ce872df7f0cddb65f7f5922536e562dbb9d74fd42874b5434ba98e70c"
+  },
+  {
+    "id": "ending_d",
+    "size": [
+      1280,
+      720
+    ],
+    "runtime": "Assets/Resources/Detective/Art/Generated/ending_d.jpg",
+    "sha256": "5ea3ee66ce173cd8eedf4ba2d5634e8c30b7a27e9563d087a981ac4b2032a78f"
+  },
+  {
+    "id": "ending_e",
+    "size": [
+      1280,
+      720
+    ],
+    "runtime": "Assets/Resources/Detective/Art/Generated/ending_e.jpg",
+    "sha256": "468217ed07379f4cea4bb67ab86d6b2fb89de10962bb0866707e292c464082bc"
+  },
+  {
+    "id": "district_alley",
+    "size": [
+      1280,
+      720
+    ],
+    "runtime": "Assets/Resources/Detective/Art/Generated/district_alley.jpg",
+    "sha256": "eecef1f17f65316c4dc836c12de84a18db771fd6f36e8da20172b2fba2d380f9"
+  },
+  {
+    "id": "district_redlight",
+    "size": [
+      1280,
+      720
+    ],
+    "runtime": "Assets/Resources/Detective/Art/Generated/district_redlight.jpg",
+    "sha256": "cbf5cfc0e2c216435ff9625bc5ae0a7541d4402fef5e69d5b7d50b70ce6fb360"
+  },
+  {
+    "id": "district_financial",
+    "size": [
+      1280,
+      720
+    ],
+    "runtime": "Assets/Resources/Detective/Art/Generated/district_financial.jpg",
+    "sha256": "c639bcd24375c7bf74da91e35d9fed919bc3ad18e142b0b73f83823043aa36a6"
+  },
+  {
+    "id": "district_industrial",
+    "size": [
+      1280,
+      720
+    ],
+    "runtime": "Assets/Resources/Detective/Art/Generated/district_industrial.jpg",
+    "sha256": "ca8451ab936f3ca26461e16d08456a900254df8365278be6eae03af0c714b5fb"
+  },
+  {
+    "id": "district_residential",
+    "size": [
+      1280,
+      720
+    ],
+    "runtime": "Assets/Resources/Detective/Art/Generated/district_residential.jpg",
+    "sha256": "8b2671d79adaa552bd80c2424b6c0c556e9fee6262f7dd2810600008f036836a"
+  },
+  {
+    "id": "ui_mind",
+    "size": [
+      1280,
+      720
+    ],
+    "runtime": "Assets/Resources/Detective/Art/Generated/ui_mind.jpg",
+    "sha256": "095cc51a4eb78d9e3036f1ce783b275ef18e5b329520e39dcbeca620f1d98530"
+  },
+  {
+    "id": "ui_dialogue",
+    "size": [
+      1280,
+      720
+    ],
+    "runtime": "Assets/Resources/Detective/Art/Generated/ui_dialogue.jpg",
+    "sha256": "e57fd33014b7841e14b29e59a829f75d48ad8c51e58d266051a3ebf32b99099e"
+  },
+  {
+    "id": "ui_settlement",
+    "size": [
+      1280,
+      720
+    ],
+    "runtime": "Assets/Resources/Detective/Art/Generated/ui_settlement.jpg",
+    "sha256": "fc4c92d79bc7a740eb1bbfc904b18f9ad9f3a7ffdd0e7a0f32979829dc60a631"
+  },
+  {
+    "id": "evidence_badge",
+    "size": [
+      1152,
+      864
+    ],
+    "runtime": "Assets/Resources/Detective/Art/Generated/evidence_badge.jpg",
+    "sha256": "e49da0ae4214a7ab1b206f4f33ba9d504d3ad19135eee940cafdb10ad584446d"
+  },
+  {
+    "id": "evidence_bloody_note",
+    "size": [
+      1152,
+      864
+    ],
+    "runtime": "Assets/Resources/Detective/Art/Generated/evidence_bloody_note.jpg",
+    "sha256": "19c66f98fccf2c7f830e6c971b33e1cc0f356b1af54999d92f2dd4ad9a6aedd4"
+  },
+  {
+    "id": "evidence_door_record",
+    "size": [
+      1152,
+      864
+    ],
+    "runtime": "Assets/Resources/Detective/Art/Generated/evidence_door_record.jpg",
+    "sha256": "4348c5a6afa68c0715e06dde69af2aedff38f0cfcf9b2faa5c72992b6a6778fe"
+  },
+  {
+    "id": "evidence_diary",
+    "size": [
+      1152,
+      864
+    ],
+    "runtime": "Assets/Resources/Detective/Art/Generated/evidence_diary.jpg",
+    "sha256": "f17dd3674e5069b13d4d148de7f8d7f9c4ca9aeb339b91f1cff3d79040f0ad97"
+  },
+  {
+    "id": "evidence_recording",
+    "size": [
+      1152,
+      864
+    ],
+    "runtime": "Assets/Resources/Detective/Art/Generated/evidence_recording.jpg",
+    "sha256": "e9a1c76b95130bc9f505b2e988f26845f7f81a98503abb29c3d3fa249808b209"
+  },
+  {
+    "id": "evidence_napkin",
+    "size": [
+      1152,
+      864
+    ],
+    "runtime": "Assets/Resources/Detective/Art/Generated/evidence_napkin.jpg",
+    "sha256": "a5123a301bdce2fa2578de5864177a6b92b36cb2cb8ed6e7ed61efcb79fc2b8b"
+  },
+  {
+    "id": "evidence_key",
+    "size": [
+      1152,
+      864
+    ],
+    "runtime": "Assets/Resources/Detective/Art/Generated/evidence_key.jpg",
+    "sha256": "d2665624e2762ac96e71e5a3e8f3866052cfb208e42fcfa7ecc486365d15822f"
+  },
+  {
+    "id": "evidence_gate",
+    "size": [
+      1152,
+      864
+    ],
+    "runtime": "Assets/Resources/Detective/Art/Generated/evidence_gate.jpg",
+    "sha256": "3f43368ff83e56c3fb012c64a4046eca3ccf4c2a34e43cbbdac3158ed9aba09e"
+  },
+  {
+    "id": "evidence_partners",
+    "size": [
+      1152,
+      864
+    ],
+    "runtime": "Assets/Resources/Detective/Art/Generated/evidence_partners.jpg",
+    "sha256": "bcd5e088259a83f2c9d6e5789c063e32c36e1a06e851e5d5e436a302a8e9ab5d"
+  },
+  {
+    "id": "evidence_letter",
+    "size": [
+      1152,
+      864
+    ],
+    "runtime": "Assets/Resources/Detective/Art/Generated/evidence_letter.jpg",
+    "sha256": "dfd58ff38a802cbf7057243a7d324563b620eef3b9c3105c716cfaac44df2dce"
+  },
+  {
+    "id": "evidence_dismissal",
+    "size": [
+      1152,
+      864
+    ],
+    "runtime": "Assets/Resources/Detective/Art/Generated/evidence_dismissal.jpg",
+    "sha256": "d6eda27173ce7da20324dd426fd369f62cb1ed2a33da5ff82ed8c26c18064b83"
+  },
+  {
+    "id": "evidence_victim_notes",
+    "size": [
+      1152,
+      864
+    ],
+    "runtime": "Assets/Resources/Detective/Art/Generated/evidence_victim_notes.jpg",
+    "sha256": "be778aa24b1892dccfd9ecc2511ad135d0a1154941820745619e06a402d8ee04"
+  }
+]

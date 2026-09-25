@@ -42,7 +42,13 @@ namespace Detective
 
         private void Start()
         {
-            SnapToNavMesh();
+            // agent 初始为禁用（Core 待机区离 NavMesh 远，启用会告警）；
+            // 区域加载完成后由 DetectiveRegionLoader 调 SnapToNavMesh 启用并吸附。
+            // 这里只兼容旧场景（agent 已启用）的静默吸附。
+            if (agent.enabled)
+            {
+                TrySnapToNavMesh(false);
+            }
         }
 
         private void Update()
@@ -81,12 +87,17 @@ namespace Detective
             }
 
             Ray ray = targetCamera.ScreenPointToRay(screenPoint);
-            if (!Physics.Raycast(ray, out RaycastHit hit, maxRayDistance, groundMask, QueryTriggerInteraction.Ignore))
+            var hits = Physics.RaycastAll(ray, maxRayDistance, groundMask, QueryTriggerInteraction.Ignore);
+            System.Array.Sort(hits, (a, b) => a.distance.CompareTo(b.distance));
+            foreach (RaycastHit hit in hits)
             {
-                return false;
+                if (NavMesh.SamplePosition(hit.point, out NavMeshHit navHit, navMeshSampleDistance, 1))
+                {
+                    return TryMoveToWorldPosition(navHit.position);
+                }
             }
 
-            return TryMoveToWorldPosition(hit.point);
+            return false;
         }
 
         public bool TryMoveToWorldPosition(Vector3 worldPosition)
@@ -102,7 +113,7 @@ namespace Detective
                 return false;
             }
 
-            if (!NavMesh.SamplePosition(worldPosition, out NavMeshHit navHit, navMeshSampleDistance, NavMesh.AllAreas))
+            if (!NavMesh.SamplePosition(worldPosition, out NavMeshHit navHit, navMeshSampleDistance, 1))
             {
                 Debug.LogWarning($"[DetectiveClickMover] No reachable NavMesh position near {worldPosition}.", this);
                 return false;
@@ -121,7 +132,8 @@ namespace Detective
             }
 
             Vector3 targetCenter = targetCollider != null ? targetCollider.bounds.center : targetPosition;
-            targetCenter.y = transform.position.y;
+            var door = targetCollider != null ? targetCollider.GetComponent<DetectiveDoorTeleport>() : null;
+            targetCenter.y = door != null ? door.EntryFloorHeight : agent.nextPosition.y;
             Vector3 approachDirection = transform.position - targetCenter;
             approachDirection.y = 0f;
             if (approachDirection.sqrMagnitude < 0.001f)
@@ -131,34 +143,60 @@ namespace Detective
             }
 
             approachDirection.Normalize();
-            float horizontalTargetRadius = targetCollider != null
-                ? Mathf.Max(targetCollider.bounds.extents.x, targetCollider.bounds.extents.z)
-                : 0.5f;
-            float candidateRadius = horizontalTargetRadius + Mathf.Max(0.1f, interactionRange);
-
             NavMeshHit bestHit = default;
             float bestScore = float.PositiveInfinity;
             bool foundSampledPosition = false;
             const int candidateCount = 16;
-            for (int index = 0; index < candidateCount; index++)
+            float approachRange = Mathf.Max(0.1f, interactionRange);
+            float[] rangeFractions = { 0.65f, 0.9f, 1.1f };
+            for (int ring = 0; ring < rangeFractions.Length; ring++)
             {
-                float angle = (360f / candidateCount) * index;
-                Vector3 direction = Quaternion.Euler(0f, angle, 0f) * approachDirection;
-                Vector3 candidate = targetCenter + direction * candidateRadius;
-                if (!NavMesh.SamplePosition(candidate, out NavMeshHit navHit, navMeshSampleDistance, NavMesh.AllAreas))
+                for (int index = 0; index < candidateCount; index++)
                 {
-                    continue;
-                }
+                    float angle = (360f / candidateCount) * index;
+                    Vector3 direction = Quaternion.Euler(0f, angle, 0f) * approachDirection;
+                    // Project the collider bounds onto this approach direction. A wide door
+                    // must use its depth when approached head-on, not its full width.
+                    float surfaceRadius = targetCollider != null
+                        ? Mathf.Abs(direction.x) * targetCollider.bounds.extents.x
+                          + Mathf.Abs(direction.z) * targetCollider.bounds.extents.z
+                        : 0.5f;
+                    Vector3 candidate = targetCenter + direction * (surfaceRadius + approachRange * rangeFractions[ring]);
+                    if (!NavMesh.SamplePosition(candidate, out NavMeshHit navHit, navMeshSampleDistance, 1))
+                    {
+                        continue;
+                    }
 
-                // The entrance link can be resolved by NavMeshAgent one frame later than
-                // NavMesh.CalculatePath. Prefer a nearby sampled point and let the agent
-                // resolve the final link/path asynchronously instead of rejecting it.
-                float score = Vector3.Distance(agent.nextPosition, navHit.position);
-                if (!foundSampledPosition || score < bestScore)
-                {
-                    foundSampledPosition = true;
-                    bestScore = score;
-                    bestHit = navHit;
+                    if (door != null && !door.IsOnEntryLevel(navHit.position.y)) continue;
+
+                    Vector3 closest = targetCollider != null
+                        ? targetCollider.ClosestPoint(navHit.position)
+                        : targetPosition;
+                    Vector2 surfaceDelta = new Vector2(navHit.position.x - closest.x, navHit.position.z - closest.z);
+                    if (surfaceDelta.magnitude > approachRange + 0.1f)
+                    {
+                        continue;
+                    }
+
+                    var path = new NavMeshPath();
+                    if (!NavMesh.CalculatePath(agent.nextPosition, navHit.position, 1, path)
+                        || path.status != NavMeshPathStatus.PathComplete)
+                    {
+                        continue;
+                    }
+
+                    float score = 0f;
+                    for (int corner = 1; corner < path.corners.Length; corner++)
+                    {
+                        score += Vector3.Distance(path.corners[corner - 1], path.corners[corner]);
+                    }
+
+                    if (!foundSampledPosition || score < bestScore)
+                    {
+                        foundSampledPosition = true;
+                        bestScore = score;
+                        bestHit = navHit;
+                    }
                 }
             }
 
@@ -189,23 +227,40 @@ namespace Detective
             }
         }
 
-        private void SnapToNavMesh()
+        public bool SnapToNavMesh()
         {
+            return TrySnapToNavMesh(true);
+        }
+
+        private bool TrySnapToNavMesh(bool logWarnings)
+        {
+            if (!agent.enabled)
+            {
+                agent.enabled = true;
+            }
+
             Vector3 navProbe = transform.position;
             navProbe.y -= rootHeightOffset;
-            if (!NavMesh.SamplePosition(navProbe, out NavMeshHit navHit, navMeshSampleDistance, NavMesh.AllAreas))
+            if (!NavMesh.SamplePosition(navProbe, out NavMeshHit navHit, Mathf.Max(navMeshSampleDistance, 5f), 1))
             {
-                Debug.LogWarning("[DetectiveClickMover] Could not find a NavMesh position for the player.", this);
-                return;
+                if (logWarnings)
+                {
+                    Debug.LogWarning("[DetectiveClickMover] Could not find a NavMesh position for the player.", this);
+                }
+                return false;
             }
 
             if (!agent.isOnNavMesh || !agent.Warp(navHit.position))
             {
-                Debug.LogWarning("[DetectiveClickMover] Could not warp the player onto the NavMesh.", this);
-                return;
+                if (logWarnings)
+                {
+                    Debug.LogWarning("[DetectiveClickMover] Could not warp the player onto the NavMesh.", this);
+                }
+                return false;
             }
 
             SyncTransformToAgent();
+            return true;
         }
 
         private void BeginOffMeshLinkTraversal()

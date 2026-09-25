@@ -20,6 +20,7 @@ namespace Detective
 
         private void Update()
         {
+            if (InteractionController.DialogueBlock) return;
             if (Mouse.current == null)
             {
                 return;

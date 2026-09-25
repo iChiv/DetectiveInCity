@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e96f36d1d6cd0940813a1eb46f13fbd, type: 3}
+  m_Name: Ending_E
+  m_EditorClassIdentifier: Assembly-CSharp::Detective.DetectiveEndingDefinition
+  endingType: 4
+  lines:
+  - "\u201c\u4f60\u8fd8\u662f\u4ec0\u4e48\u90fd\u6ca1\u60f3\u8d77\u6765\u3002\u5509\uff0c\u7b97\u4e86\u5427\u3002\u201d\u4ed6\u8d70\u5165\u96e8\u91cc\u3002\u4f60\u4e5f\u6ca1\u6709\u62e6\u4f4f\u4ed6\u3002"
+  - "\u5929\u4eae\u65f6\uff0c\u4f60\u7ad9\u5728\u5341\u5b57\u8def\u53e3\uff0c\u624b\u91cc\u53ea\u6709\u51e0\u5f20\u788e\u7eb8\u7247\u3002"
+  finalImageText: "\u4f60\u72ec\u81ea\u8d70\u5728\u8857\u4e0a\uff0c\u96e8\u505c\u4e86\uff0c\u4f46\u8863\u670d\u8fd8\u662f\u6e7f\u7684\u3002"
+  endingTitle: "\u60ac\u6848"
+  panelTint: {r: 0.7, g: 0.7, b: 0.7, a: 0.9}

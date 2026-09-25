@@ -1,0 +1,18 @@
+{
+  "jsonrpc": "2.0",
+  "id": "c2c56742-7975-4977-ab09-0f4365b38523",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"success\":false,\"code\":\"Error setting properties on component 'RectTransform': This cannot be used during play mode.\",\"error\":\"Error setting properties on component 'RectTransform': This cannot be used during play mode.\"}"
+      }
+    ],
+    "structuredContent": {
+      "success": false,
+      "code": "Error setting properties on component 'RectTransform': This cannot be used during play mode.",
+      "error": "Error setting properties on component 'RectTransform': This cannot be used during play mode."
+    },
+    "isError": false
+  }
+}

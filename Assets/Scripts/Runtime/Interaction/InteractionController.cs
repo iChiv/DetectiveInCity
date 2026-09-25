@@ -22,6 +22,8 @@ namespace Detective
         public string InteractionPrompt { get; private set; } = "None";
         public bool IsAwaitingConfirmation => false;
 
+        public static bool DialogueBlock { get; set; }
+
         private void Awake()
         {
             mover = GetComponent<DetectiveClickMover>();
@@ -47,11 +49,12 @@ namespace Detective
 
         private void Update()
         {
-            if (inputActions != null && inputActions.Detective.Click.WasPressedThisFrame())
+            if (inputActions != null && !DialogueBlock && inputActions.Detective.Click.WasPressedThisFrame())
             {
                 HandleClick(inputActions.Detective.Point.ReadValue<Vector2>());
             }
 
+            if (DialogueBlock) { ClearPendingInteraction(); return; }
             UpdatePendingInteraction();
         }
 
@@ -64,14 +67,24 @@ namespace Detective
             }
 
             Ray ray = targetCamera.ScreenPointToRay(screenPoint);
-            if (Physics.Raycast(ray, out RaycastHit hit, maxRayDistance, interactableMask, QueryTriggerInteraction.Ignore))
+            var hits = Physics.RaycastAll(ray, maxRayDistance, interactableMask, QueryTriggerInteraction.Ignore);
+            if (hits.Length > 0)
             {
-                IInteractable interactable = hit.collider.GetComponentInParent<MonoBehaviour>() as IInteractable;
-                if (interactable != null)
+                System.Array.Sort(hits, (a, b) => a.distance.CompareTo(b.distance));
+
+                // 可交互物优先于墙体/招牌等遮挡物：整条射线上的命中里先找可交互目标
+                foreach (RaycastHit hit in hits)
                 {
-                    pendingInteractable = interactable;
-                    RequestMoveOrInteract(interactable);
-                    return;
+                    // Frame and prop components can precede the actual interactable on a parent.
+                    foreach (MonoBehaviour component in hit.collider.GetComponentsInParent<MonoBehaviour>())
+                    {
+                        if (component is IInteractable interactable && interactable.CanInteract)
+                        {
+                            pendingInteractable = interactable;
+                            RequestMoveOrInteract(interactable);
+                            return;
+                        }
+                    }
                 }
             }
 
@@ -167,6 +180,10 @@ namespace Detective
 
         private float GetInteractionDistance(Component targetComponent)
         {
+            if (targetComponent is DetectiveDoorTeleport door && !door.IsOnEntryLevel(mover.Agent.nextPosition.y))
+            {
+                return float.PositiveInfinity;
+            }
             Collider targetCollider = targetComponent.GetComponent<Collider>();
             Vector3 closestPoint = targetCollider != null
                 ? targetCollider.ClosestPoint(transform.position)

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ed8931f95a9ea4ead061b2e18c6df3, type: 3}
+  m_Name: clue_badge
+  m_EditorClassIdentifier: Assembly-CSharp::Detective.DetectiveClueDefinition
+  clueId: clue_badge
+  title: "\u8B66\u5FBD\uFF1A\u7F16\u53F7NC-2077"
+  description: "\u4F60\u6361\u8D77\u4E00\u679A\u6CBE\u7740\u96E8\u6C34\u7684\u8B66\u5FBD\u3002\u7F16\u53F7\uFF1ANC-2077\u3002"
+  sourceId: 
+  tags: []

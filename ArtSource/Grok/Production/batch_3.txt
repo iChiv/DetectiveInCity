@@ -1,0 +1,54 @@
+用户授权继续为DetectiveInCity生成正式图片。仅原生image_gen，不用子代理，不用终端命令，不修改代码，不下载网页图。无需复制图片，外部协调器从工具返回路径保存。
+已批准参考图实际路径：E:\Projects\Unity\DetectiveInCity\ArtSource\Grok\MenuCandidates\C_badge_clue.jpg。先确认image_gen是否支持参考图参数；支持则用它统一画风，不支持则严格遵守下列风格。
+Match the approved C_badge_clue.jpg: photorealistic cinematic urban noir, believable East Asian cast in an old rain-soaked city; blue-gray shadows, restrained warm amber practical lighting, subtle cyan violet reflections, tactile materials, film still quality, shallow depth of field when appropriate. NOT polygonal, vector, cartoon, anime, flat silhouette, sketch or impasto painting. No readable words, no numbers, no logo, no watermark, no UI. Preserve clear subjects. All assets belong to one consistent detective game.
+逐一生成下面清单，每项只生成一张。每次调用前输出 ASSET_ID: 对应id，便于外部归档。只生成本批；每项失败最多重试一次。遇到工具限制明确报告，禁止冒充成功。头像建立后，后续结局使用本会话里已经生成的hero和trenchcoat作为人物参考（若支持引用）。不要生成任何带字拼图。
+[
+  {
+    "id": "district_alley",
+    "group": "Districts",
+    "aspect_ratio": "16:9",
+    "subject": "narrow rain soaked old brick alley, garbage bin and discarded paper near foreground, warm lamp, deep shadow. No foreground people, cinematic wide establishing view, physically grounded old city consistent with reference."
+  },
+  {
+    "id": "district_redlight",
+    "group": "Districts",
+    "aspect_ratio": "16:9",
+    "subject": "old neon entertainment street with red telephone booth, weathered shops, wet pavement, subdued cyan purple and amber lights. No foreground people, cinematic wide establishing view, physically grounded old city consistent with reference."
+  },
+  {
+    "id": "district_financial",
+    "group": "Districts",
+    "aspect_ratio": "16:9",
+    "subject": "rainy financial district, tall glass offices towering above an old luxury apartment entrance, small plaza fountain, police tape without text. No foreground people, cinematic wide establishing view, physically grounded old city consistent with reference."
+  },
+  {
+    "id": "district_industrial",
+    "group": "Districts",
+    "aspect_ratio": "16:9",
+    "subject": "abandoned factory yard at night, warehouse, rusty gate, loading crates, metal stairs ascending toward rooftop, warm sodium lights. No foreground people, cinematic wide establishing view, physically grounded old city consistent with reference."
+  },
+  {
+    "id": "district_residential",
+    "group": "Districts",
+    "aspect_ratio": "16:9",
+    "subject": "quiet residential street at predawn, old apartment facades, lit windows, mailboxes, dim streetlamp and stray cat. No foreground people, cinematic wide establishing view, physically grounded old city consistent with reference."
+  },
+  {
+    "id": "ui_mind",
+    "group": "UI",
+    "aspect_ratio": "16:9",
+    "subject": "Overhead cinematic closeup of dark charcoal investigation desk with subtly layered worn paper edges at perimeter, almost empty center, very low contrast texture, no objects in central 75 percent, no writing, designed under white UI text."
+  },
+  {
+    "id": "ui_dialogue",
+    "group": "UI",
+    "aspect_ratio": "16:9",
+    "subject": "Extremely subtle charcoal blue black paper and rain fog texture, low contrast uniform center, soft vignette perimeter, no figures no objects no lettering, sophisticated noir dialogue panel background."
+  },
+  {
+    "id": "ui_settlement",
+    "group": "UI",
+    "aspect_ratio": "16:9",
+    "subject": "Cinematic dawn investigation desk, closed file folder and coffee cup near extreme bottom right edges, pale gold light on damp wood, central 65 percent empty dark surface for readable UI overlay, no writing."
+  }
+]

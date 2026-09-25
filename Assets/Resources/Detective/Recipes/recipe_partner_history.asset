@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5db8261d70ea8324ca9a8720a5d4815a, type: 3}
+  m_Name: recipe_partner_history
+  m_EditorClassIdentifier: Assembly-CSharp::Detective.DetectiveReasoningRecipe
+  recipeId: partner_history
+  requiredClueIds:
+  - clue_former_partners
+  - clue_trenchcoat_file
+  resultText: "\u5408\u5F71\u548C\u524D\u8B66\u63A2\u6863\u6848\u628A\u98CE\u8863\u7537\u4E0E\u4F60\u7684\u8B66\u5C40\u7ECF\u5386\u8054\u7CFB\u8D77\u6765\uFF1A\u4ED6\u662F\u65E7\u642D\u6863\uFF0C\u5E76\u975E\u5076\u7136\u8BA4\u8BC6\u4F60\u7684\u964C\u751F\u4EBA\u3002\u8FD9\u4E0D\u76F4\u63A5\u8BC1\u660E\u4ED6\u5728\u672C\u6848\u4E2D\u7684\u7ACB\u573A\u3002"
+  grantedClueId: 
+  voiceChanges: []
+  failFocusCost: 10
+  onceOnly: 1
+  freeSuccess: 0

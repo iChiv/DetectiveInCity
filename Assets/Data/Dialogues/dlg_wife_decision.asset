@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c5633ef7886ee34abec51770ecb9d61, type: 3}
+  m_Name: dlg_wife_decision
+  m_EditorClassIdentifier: Assembly-CSharp::Detective.DetectiveDialogueDefinition
+  characterDefinition: {fileID: 11400000, guid: 4305eddc97a09ef4bac996ca2c3d7e75, type: 2}
+  openingLines:
+  - "\u5979\u95EE\uFF1A\u201C\u6240\u4EE5\uFF0C\u4F60\u8981\u770B\u4ED6\u7684\u9057\u7269\u5417\uFF1F\u201D"
+  voicePopups: []
+  options:
+  - text: "\u770B\u9057\u7269\u3002"
+    voiceTag: 0
+    grantedClueIds:
+    - clue_victim_notes
+    voiceChanges: []
+    timeAdvanceMinutes: 15
+    timeAdvanceToMinutes: -1
+    focusDelta: 0
+    setFlags: []
+    requireFlags: []
+    forbiddenFlags: []
+    requireVoiceLevel:
+      voice: 0
+      minLevel: 0
+    requireClueCountMin: -1
+    requireClueCountMax: -1
+    startFinalDuel: 0
+    resultLines:
+    - "\u65F6\u95F4\u63A8\u8FDB 15 \u5206\u949F\u3002\u83B7\u5F97\u7EBF\u7D22\u3010\u6B7B\u8005\u7B14\u8BB0\uFF1A\u98CE\u8863\u7537\u548C\u8B66\u5C40\u9AD8\u5C42\u6709\u4EA4\u6613\u3011\u3002"
+    isTerminal: 1
+  - text: "\u4E0D\u770B\u3002"
+    voiceTag: 0
+    grantedClueIds: []
+    voiceChanges: []
+    timeAdvanceMinutes: 0
+    timeAdvanceToMinutes: -1
+    focusDelta: 0
+    setFlags: []
+    requireFlags: []
+    forbiddenFlags: []
+    requireVoiceLevel:
+      voice: 0
+      minLevel: 0
+    requireClueCountMin: -1
+    requireClueCountMax: -1
+    startFinalDuel: 0
+    resultLines:
+    - "\u4F60\u6447\u4E86\u6447\u5934\u3002\u4E00\u65E0\u6240\u83B7\u3002"
+    isTerminal: 1
+  grantedClueIds: []
+  completionFlag: dlg_wife_decision_done
+  repeatLines:
+  - "\uFF08\u9057\u7269\u5DF2\u7ECF\u6536\u8D70\u4E86\u3002\uFF09"

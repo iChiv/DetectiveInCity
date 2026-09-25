@@ -1110,6 +1110,24 @@ namespace Detective
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""MindPanel"",
+                    ""type"": ""Button"",
+                    ""id"": ""ca38d919-4c1d-407b-b8ff-36d1f8530261"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Map"",
+                    ""type"": ""Button"",
+                    ""id"": ""2eb3a934-4e5f-4eb6-af69-06ab20f87f91"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -1143,6 +1161,28 @@ namespace Detective
                     ""processors"": """",
                     ""groups"": ""Keyboard&Mouse"",
                     ""action"": ""Cancel"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""825a417b-b042-42bc-b8db-b7632eb8df6c"",
+                    ""path"": ""<Keyboard>/tab"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""MindPanel"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""b2e69c67-f3d1-4a2f-9f0c-7f7dbc56d24e"",
+                    ""path"": ""<Keyboard>/m"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""Map"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -1240,6 +1280,8 @@ namespace Detective
             m_Detective_Point = m_Detective.FindAction("Point", throwIfNotFound: true);
             m_Detective_Click = m_Detective.FindAction("Click", throwIfNotFound: true);
             m_Detective_Cancel = m_Detective.FindAction("Cancel", throwIfNotFound: true);
+            m_Detective_MindPanel = m_Detective.FindAction("MindPanel", throwIfNotFound: true);
+            m_Detective_Map = m_Detective.FindAction("Map", throwIfNotFound: true);
         }
 
         ~@DetectiveInputActions()
@@ -1704,6 +1746,8 @@ namespace Detective
         private readonly InputAction m_Detective_Point;
         private readonly InputAction m_Detective_Click;
         private readonly InputAction m_Detective_Cancel;
+        private readonly InputAction m_Detective_MindPanel;
+        private readonly InputAction m_Detective_Map;
         /// <summary>
         /// Provides access to input actions defined in input action map "Detective".
         /// </summary>
@@ -1727,6 +1771,14 @@ namespace Detective
             /// Provides access to the underlying input action "Detective/Cancel".
             /// </summary>
             public InputAction @Cancel => m_Wrapper.m_Detective_Cancel;
+            /// <summary>
+            /// Provides access to the underlying input action "Detective/MindPanel".
+            /// </summary>
+            public InputAction @MindPanel => m_Wrapper.m_Detective_MindPanel;
+            /// <summary>
+            /// Provides access to the underlying input action "Detective/Map".
+            /// </summary>
+            public InputAction @Map => m_Wrapper.m_Detective_Map;
             /// <summary>
             /// Provides access to the underlying input action map instance.
             /// </summary>
@@ -1762,6 +1814,12 @@ namespace Detective
                 @Cancel.started += instance.OnCancel;
                 @Cancel.performed += instance.OnCancel;
                 @Cancel.canceled += instance.OnCancel;
+                @MindPanel.started += instance.OnMindPanel;
+                @MindPanel.performed += instance.OnMindPanel;
+                @MindPanel.canceled += instance.OnMindPanel;
+                @Map.started += instance.OnMap;
+                @Map.performed += instance.OnMap;
+                @Map.canceled += instance.OnMap;
             }
 
             /// <summary>
@@ -1782,6 +1840,12 @@ namespace Detective
                 @Cancel.started -= instance.OnCancel;
                 @Cancel.performed -= instance.OnCancel;
                 @Cancel.canceled -= instance.OnCancel;
+                @MindPanel.started -= instance.OnMindPanel;
+                @MindPanel.performed -= instance.OnMindPanel;
+                @MindPanel.canceled -= instance.OnMindPanel;
+                @Map.started -= instance.OnMap;
+                @Map.performed -= instance.OnMap;
+                @Map.canceled -= instance.OnMap;
             }
 
             /// <summary>
@@ -2057,6 +2121,20 @@ namespace Detective
             /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
             /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
             void OnCancel(InputAction.CallbackContext context);
+            /// <summary>
+            /// Method invoked when associated input action "MindPanel" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+            /// </summary>
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+            void OnMindPanel(InputAction.CallbackContext context);
+            /// <summary>
+            /// Method invoked when associated input action "Map" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+            /// </summary>
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+            void OnMap(InputAction.CallbackContext context);
         }
     }
 }

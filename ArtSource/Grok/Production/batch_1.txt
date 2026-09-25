@@ -1,0 +1,66 @@
+用户授权继续为DetectiveInCity生成正式图片。仅原生image_gen，不用子代理，不用终端命令，不修改代码，不下载网页图。无需复制图片，外部协调器从工具返回路径保存。
+已批准参考图实际路径：E:\Projects\Unity\DetectiveInCity\ArtSource\Grok\MenuCandidates\C_badge_clue.jpg。先确认image_gen是否支持参考图参数；支持则用它统一画风，不支持则严格遵守下列风格。
+Match the approved C_badge_clue.jpg: photorealistic cinematic urban noir, believable East Asian cast in an old rain-soaked city; blue-gray shadows, restrained warm amber practical lighting, subtle cyan violet reflections, tactile materials, film still quality, shallow depth of field when appropriate. NOT polygonal, vector, cartoon, anime, flat silhouette, sketch or impasto painting. No readable words, no numbers, no logo, no watermark, no UI. Preserve clear subjects. All assets belong to one consistent detective game.
+逐一生成下面清单，每项只生成一张。每次调用前输出 ASSET_ID: 对应id，便于外部归档。只生成本批；每项失败最多重试一次。遇到工具限制明确报告，禁止冒充成功。头像建立后，后续结局使用本会话里已经生成的hero和trenchcoat作为人物参考（若支持引用）。不要生成任何带字拼图。
+[
+  {
+    "id": "portrait_hero",
+    "group": "Portraits",
+    "aspect_ratio": "1:1",
+    "subject": "East Asian male detective age 35, tired eyes, short black hair, faint bruise on left cheek, tan trench coat, dark fedora, white shirt, loosened dark tie, head and shoulders three quarter view. Single subject centered face safely inside the central 65 percent, dark neutral background, bust portrait, no other characters."
+  },
+  {
+    "id": "portrait_trenchcoat",
+    "group": "Portraits",
+    "aspect_ratio": "1:1",
+    "subject": "East Asian man age 45, angular face, short graying black hair combed back, charcoal trench coat, no hat, weary guarded gaze. Former police detective, visibly distinct from the younger protagonist. Single subject centered face safely inside the central 65 percent, dark neutral background, bust portrait, no other characters."
+  },
+  {
+    "id": "portrait_woman",
+    "group": "Portraits",
+    "aspect_ratio": "1:1",
+    "subject": "East Asian woman age 32, shoulder length dark hair, pale beige raincoat, anxious restrained expression, transparent umbrella edge behind head. Single subject centered face safely inside the central 65 percent, dark neutral background, bust portrait, no other characters."
+  },
+  {
+    "id": "portrait_bartender",
+    "group": "Portraits",
+    "aspect_ratio": "1:1",
+    "subject": "East Asian bald male bartender age 60, discreet mechanical prosthetic right eye, weathered face, white shirt and dark waistcoat, compassionate but guarded. Single subject centered face safely inside the central 65 percent, dark neutral background, bust portrait, no other characters."
+  },
+  {
+    "id": "portrait_guard",
+    "group": "Portraits",
+    "aspect_ratio": "1:1",
+    "subject": "East Asian male security guard age 24, navy security uniform without text or logos, tense face, short neat hair. Single subject centered face safely inside the central 65 percent, dark neutral background, bust portrait, no other characters."
+  },
+  {
+    "id": "portrait_beggar",
+    "group": "Portraits",
+    "aspect_ratio": "1:1",
+    "subject": "Elderly East Asian woman age 70, worn layered clothing, blanket over shoulders, silver hair, alert tired eyes. Dignified rather than grotesque. Single subject centered face safely inside the central 65 percent, dark neutral background, bust portrait, no other characters."
+  },
+  {
+    "id": "portrait_barista",
+    "group": "Portraits",
+    "aspect_ratio": "1:1",
+    "subject": "East Asian female barista age 26, dark hair tied back, brown apron over cream shirt, concerned recognizing gaze. Single subject centered face safely inside the central 65 percent, dark neutral background, bust portrait, no other characters."
+  },
+  {
+    "id": "portrait_monkey",
+    "group": "Portraits",
+    "aspect_ratio": "1:1",
+    "subject": "Thin East Asian man age 38, narrow face, disheveled short hair, worn olive jacket, wary nervous expression, no caricature. Single subject centered face safely inside the central 65 percent, dark neutral background, bust portrait, no other characters."
+  },
+  {
+    "id": "portrait_sniper",
+    "group": "Portraits",
+    "aspect_ratio": "1:1",
+    "subject": "Adult male in dark hooded rain jacket, face partly shadowed but realistic, solemn expression, discreet rifle sling over shoulder. Single subject centered face safely inside the central 65 percent, dark neutral background, bust portrait, no other characters."
+  },
+  {
+    "id": "portrait_wife",
+    "group": "Portraits",
+    "aspect_ratio": "1:1",
+    "subject": "East Asian widow age 36, shoulder length dark hair, simple muted cardigan, reddened eyes and restrained grief, no melodrama. Single subject centered face safely inside the central 65 percent, dark neutral background, bust portrait, no other characters."
+  }
+]

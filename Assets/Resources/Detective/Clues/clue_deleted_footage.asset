@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ed8931f95a9ea4ead061b2e18c6df3, type: 3}
+  m_Name: clue_deleted_footage
+  m_EditorClassIdentifier: Assembly-CSharp::Detective.DetectiveClueDefinition
+  clueId: clue_deleted_footage
+  title: "\u88AB\u5220\u5F55\u50CF\uFF1A23:00\u201323:30"
+  description: "\u88AB\u5220\u65F6\u6BB5\u6B63\u597D\u8986\u76D6\u6848\u53D1\u7A97\u53E3\u3002"
+  sourceId: 
+  tags: []

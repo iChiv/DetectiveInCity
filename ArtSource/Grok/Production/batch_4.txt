@@ -1,0 +1,78 @@
+用户授权继续为DetectiveInCity生成正式图片。仅原生image_gen，不用子代理，不用终端命令，不修改代码，不下载网页图。无需复制图片，外部协调器从工具返回路径保存。
+已批准参考图实际路径：E:\Projects\Unity\DetectiveInCity\ArtSource\Grok\MenuCandidates\C_badge_clue.jpg。先确认image_gen是否支持参考图参数；支持则用它统一画风，不支持则严格遵守下列风格。
+Match the approved C_badge_clue.jpg: photorealistic cinematic urban noir, believable East Asian cast in an old rain-soaked city; blue-gray shadows, restrained warm amber practical lighting, subtle cyan violet reflections, tactile materials, film still quality, shallow depth of field when appropriate. NOT polygonal, vector, cartoon, anime, flat silhouette, sketch or impasto painting. No readable words, no numbers, no logo, no watermark, no UI. Preserve clear subjects. All assets belong to one consistent detective game.
+逐一生成下面清单，每项只生成一张。每次调用前输出 ASSET_ID: 对应id，便于外部归档。只生成本批；每项失败最多重试一次。遇到工具限制明确报告，禁止冒充成功。头像建立后，后续结局使用本会话里已经生成的hero和trenchcoat作为人物参考（若支持引用）。不要生成任何带字拼图。
+[
+  {
+    "id": "evidence_badge",
+    "group": "Evidence",
+    "aspect_ratio": "4:3",
+    "subject": "a worn silver police shield badge with blank unlettered face on wet dark pavement, macro cinematic detail. Single clear evidence subject occupies central 65 percent, realistic materials and shallow depth of field. No titles, numbers, logos or watermark."
+  },
+  {
+    "id": "evidence_bloody_note",
+    "group": "Evidence",
+    "aspect_ratio": "4:3",
+    "subject": "a small folded cream paper scrap with a tiny dark dried blood spot, damp wrinkled edges on dark desk, no writing. Single clear evidence subject occupies central 65 percent, realistic materials and shallow depth of field. No titles, numbers, logos or watermark."
+  },
+  {
+    "id": "evidence_door_record",
+    "group": "Evidence",
+    "aspect_ratio": "4:3",
+    "subject": "closeup of an old access-control reader and a small blank receipt strip, tiny blue indicator lights, no readable screen content. Single clear evidence subject occupies central 65 percent, realistic materials and shallow depth of field. No titles, numbers, logos or watermark."
+  },
+  {
+    "id": "evidence_diary",
+    "group": "Evidence",
+    "aspect_ratio": "4:3",
+    "subject": "a worn brown pocket diary open to aged cream pages with abstract indistinct ink strokes, no legible text, cinematic evidence photograph. Single clear evidence subject occupies central 65 percent, realistic materials and shallow depth of field. No titles, numbers, logos or watermark."
+  },
+  {
+    "id": "evidence_recording",
+    "group": "Evidence",
+    "aspect_ratio": "4:3",
+    "subject": "small black handheld digital voice recorder with metal microphone grille on dark wooden desk, unlit blank display, evidence still life. Single clear evidence subject occupies central 65 percent, realistic materials and shallow depth of field. No titles, numbers, logos or watermark."
+  },
+  {
+    "id": "evidence_napkin",
+    "group": "Evidence",
+    "aspect_ratio": "4:3",
+    "subject": "a crumpled off-white cafe napkin with right edge torn away, faint illegible ink traces, dark coffee stain, cinematic evidence photograph. Single clear evidence subject occupies central 65 percent, realistic materials and shallow depth of field. No titles, numbers, logos or watermark."
+  },
+  {
+    "id": "evidence_key",
+    "group": "Evidence",
+    "aspect_ratio": "4:3",
+    "subject": "one worn brass key with plain metal ring on damp concrete, distinctive notched blade and rectangular bow, macro detail. Single clear evidence subject occupies central 65 percent, realistic materials and shallow depth of field. No titles, numbers, logos or watermark."
+  },
+  {
+    "id": "evidence_gate",
+    "group": "Evidence",
+    "aspect_ratio": "4:3",
+    "subject": "macro view of old iron gate lock cylinder with fresh bright scratches in rusty metal, no key inserted, blue-gray rain drops. Single clear evidence subject occupies central 65 percent, realistic materials and shallow depth of field. No titles, numbers, logos or watermark."
+  },
+  {
+    "id": "evidence_partners",
+    "group": "Evidence",
+    "aspect_ratio": "4:3",
+    "subject": "aged physical photograph lying on desk, two East Asian police detectives standing shoulder to shoulder: younger short black hair man and older angular face man with combed back graying hair, formal dark uniforms without text, warm memory lighting, no captions. Single clear evidence subject occupies central 65 percent, realistic materials and shallow depth of field. No titles, numbers, logos or watermark."
+  },
+  {
+    "id": "evidence_letter",
+    "group": "Evidence",
+    "aspect_ratio": "4:3",
+    "subject": "unmailed cream envelope and unfolded ivory letter sheet, small abstract ink traces, no legible writing, one brass paperclip on dark desk, distinct from blood paper scrap. Single clear evidence subject occupies central 65 percent, realistic materials and shallow depth of field. No titles, numbers, logos or watermark."
+  },
+  {
+    "id": "evidence_dismissal",
+    "group": "Evidence",
+    "aspect_ratio": "4:3",
+    "subject": "formal cold-white personnel notice on blue-gray file folder with muted red rectangular stamp shape without characters, no legible writing. Single clear evidence subject occupies central 65 percent, realistic materials and shallow depth of field. No titles, numbers, logos or watermark."
+  },
+  {
+    "id": "evidence_victim_notes",
+    "group": "Evidence",
+    "aspect_ratio": "4:3",
+    "subject": "an open dark-green cloth notebook containing loose yellow research slips and tiny monochrome transaction photographs, restrained scribbles without readable text, dark desk, distinct from brown diary. Single clear evidence subject occupies central 65 percent, realistic materials and shallow depth of field. No titles, numbers, logos or watermark."
+  }
+]

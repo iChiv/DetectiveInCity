@@ -1,0 +1,60 @@
+用户授权继续为DetectiveInCity生成正式图片。仅原生image_gen，不用子代理，不用终端命令，不修改代码，不下载网页图。无需复制图片，外部协调器从工具返回路径保存。
+已批准参考图实际路径：E:\Projects\Unity\DetectiveInCity\ArtSource\Grok\MenuCandidates\C_badge_clue.jpg。先确认image_gen是否支持参考图参数；支持则用它统一画风，不支持则严格遵守下列风格。
+Match the approved C_badge_clue.jpg: photorealistic cinematic urban noir, believable East Asian cast in an old rain-soaked city; blue-gray shadows, restrained warm amber practical lighting, subtle cyan violet reflections, tactile materials, film still quality, shallow depth of field when appropriate. NOT polygonal, vector, cartoon, anime, flat silhouette, sketch or impasto painting. No readable words, no numbers, no logo, no watermark, no UI. Preserve clear subjects. All assets belong to one consistent detective game.
+逐一生成下面清单，每项只生成一张。每次调用前输出 ASSET_ID: 对应id，便于外部归档。只生成本批；每项失败最多重试一次。遇到工具限制明确报告，禁止冒充成功。头像建立后，后续结局使用本会话里已经生成的hero和trenchcoat作为人物参考（若支持引用）。不要生成任何带字拼图。
+[
+  {
+    "id": "voice_logic",
+    "group": "Voices",
+    "aspect_ratio": "1:1",
+    "subject": "Photorealistic cinematic head portrait of a thoughtful male internal voice with round glasses, blue accent light, analytical expression. Clearly recognizable human face, centered for circle crop, near-black background, no symbols, no letters, no numbers."
+  },
+  {
+    "id": "voice_empathy",
+    "group": "Voices",
+    "aspect_ratio": "1:1",
+    "subject": "Photorealistic cinematic head portrait of a kind female internal voice, soft green accent light, warm empathetic expression. Clearly recognizable human face, centered for circle crop, near-black background, no symbols, no letters, no numbers."
+  },
+  {
+    "id": "voice_authority",
+    "group": "Voices",
+    "aspect_ratio": "1:1",
+    "subject": "Photorealistic cinematic head portrait of a stern mature male internal voice in tailored dark collar, muted gold accent light, resolute expression. Clearly recognizable human face, centered for circle crop, near-black background, no symbols, no letters, no numbers."
+  },
+  {
+    "id": "voice_madness",
+    "group": "Voices",
+    "aspect_ratio": "1:1",
+    "subject": "Photorealistic cinematic head portrait of an intense androgynous internal voice, disheveled dark hair, muted burgundy red accent light, haunted but human expression. Clearly recognizable human face, centered for circle crop, near-black background, no symbols, no letters, no numbers."
+  },
+  {
+    "id": "ending_a",
+    "group": "Endings",
+    "aspect_ratio": "16:9",
+    "subject": "The same tan-coated fedora detective and older charcoal-coated hatless former partner walk one behind the other into rainy blue-gray dawn. Rear view, wet street, subtle warm gold sunrise, bittersweet reconciliation. Full cinematic environment illustration, recognizable staging. Reserve bottom 18 percent dark low-detail space for separate subtitles."
+  },
+  {
+    "id": "ending_b",
+    "group": "Endings",
+    "aspect_ratio": "16:9",
+    "subject": "The same older charcoal-coated hatless man escorted by two distant police silhouettes toward a police car at dawn, while younger tan-coated fedora protagonist watches holding a folded paper. Restrained blue-red police light, no readable markings. Full cinematic environment illustration, recognizable staging. Reserve bottom 18 percent dark low-detail space for separate subtitles."
+  },
+  {
+    "id": "ending_c",
+    "group": "Endings",
+    "aspect_ratio": "16:9",
+    "subject": "The same tan-coated fedora protagonist alone at a wet rooftop edge, hand lowered after a moral choice, vast dark rainy city below, no victim or impact shown. Empty space and remorse. Full cinematic environment illustration, recognizable staging. Reserve bottom 18 percent dark low-detail space for separate subtitles."
+  },
+  {
+    "id": "ending_d",
+    "group": "Endings",
+    "aspect_ratio": "16:9",
+    "subject": "The same younger detective kneeling beside rain puddle, dropped silver badge in foreground, hat on wet ground, older charcoal-coated figure walking away blurred in background. Confused memory, no objective murder depiction. Full cinematic environment illustration, recognizable staging. Reserve bottom 18 percent dark low-detail space for separate subtitles."
+  },
+  {
+    "id": "ending_e",
+    "group": "Endings",
+    "aspect_ratio": "16:9",
+    "subject": "The same detective alone at a deserted intersection after rain, holding torn paper fragments, cold early dawn, endless streets, an unsolved investigation. Full cinematic environment illustration, recognizable staging. Reserve bottom 18 percent dark low-detail space for separate subtitles."
+  }
+]

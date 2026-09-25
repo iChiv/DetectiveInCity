@@ -1,0 +1,240 @@
+{
+  "reference": "../MenuCandidates/C_badge_clue.jpg",
+  "style": "Match the approved C_badge_clue.jpg: photorealistic cinematic urban noir, believable East Asian cast in an old rain-soaked city; blue-gray shadows, restrained warm amber practical lighting, subtle cyan violet reflections, tactile materials, film still quality, shallow depth of field when appropriate. NOT polygonal, vector, cartoon, anime, flat silhouette, sketch or impasto painting. No readable words, no numbers, no logo, no watermark, no UI. Preserve clear subjects. All assets belong to one consistent detective game.",
+  "assets": [
+    {
+      "id": "portrait_hero",
+      "group": "Portraits",
+      "aspect_ratio": "1:1",
+      "subject": "East Asian male detective age 35, tired eyes, short black hair, faint bruise on left cheek, tan trench coat, dark fedora, white shirt, loosened dark tie, head and shoulders three quarter view. Single subject centered face safely inside the central 65 percent, dark neutral background, bust portrait, no other characters."
+    },
+    {
+      "id": "portrait_trenchcoat",
+      "group": "Portraits",
+      "aspect_ratio": "1:1",
+      "subject": "East Asian man age 45, angular face, short graying black hair combed back, charcoal trench coat, no hat, weary guarded gaze. Former police detective, visibly distinct from the younger protagonist. Single subject centered face safely inside the central 65 percent, dark neutral background, bust portrait, no other characters."
+    },
+    {
+      "id": "portrait_woman",
+      "group": "Portraits",
+      "aspect_ratio": "1:1",
+      "subject": "East Asian woman age 32, shoulder length dark hair, pale beige raincoat, anxious restrained expression, transparent umbrella edge behind head. Single subject centered face safely inside the central 65 percent, dark neutral background, bust portrait, no other characters."
+    },
+    {
+      "id": "portrait_bartender",
+      "group": "Portraits",
+      "aspect_ratio": "1:1",
+      "subject": "East Asian bald male bartender age 60, discreet mechanical prosthetic right eye, weathered face, white shirt and dark waistcoat, compassionate but guarded. Single subject centered face safely inside the central 65 percent, dark neutral background, bust portrait, no other characters."
+    },
+    {
+      "id": "portrait_guard",
+      "group": "Portraits",
+      "aspect_ratio": "1:1",
+      "subject": "East Asian male security guard age 24, navy security uniform without text or logos, tense face, short neat hair. Single subject centered face safely inside the central 65 percent, dark neutral background, bust portrait, no other characters."
+    },
+    {
+      "id": "portrait_beggar",
+      "group": "Portraits",
+      "aspect_ratio": "1:1",
+      "subject": "Elderly East Asian woman age 70, worn layered clothing, blanket over shoulders, silver hair, alert tired eyes. Dignified rather than grotesque. Single subject centered face safely inside the central 65 percent, dark neutral background, bust portrait, no other characters."
+    },
+    {
+      "id": "portrait_barista",
+      "group": "Portraits",
+      "aspect_ratio": "1:1",
+      "subject": "East Asian female barista age 26, dark hair tied back, brown apron over cream shirt, concerned recognizing gaze. Single subject centered face safely inside the central 65 percent, dark neutral background, bust portrait, no other characters."
+    },
+    {
+      "id": "portrait_monkey",
+      "group": "Portraits",
+      "aspect_ratio": "1:1",
+      "subject": "Thin East Asian man age 38, narrow face, disheveled short hair, worn olive jacket, wary nervous expression, no caricature. Single subject centered face safely inside the central 65 percent, dark neutral background, bust portrait, no other characters."
+    },
+    {
+      "id": "portrait_sniper",
+      "group": "Portraits",
+      "aspect_ratio": "1:1",
+      "subject": "Adult male in dark hooded rain jacket, face partly shadowed but realistic, solemn expression, discreet rifle sling over shoulder. Single subject centered face safely inside the central 65 percent, dark neutral background, bust portrait, no other characters."
+    },
+    {
+      "id": "portrait_wife",
+      "group": "Portraits",
+      "aspect_ratio": "1:1",
+      "subject": "East Asian widow age 36, shoulder length dark hair, simple muted cardigan, reddened eyes and restrained grief, no melodrama. Single subject centered face safely inside the central 65 percent, dark neutral background, bust portrait, no other characters."
+    },
+    {
+      "id": "voice_logic",
+      "group": "Voices",
+      "aspect_ratio": "1:1",
+      "subject": "Photorealistic cinematic head portrait of a thoughtful male internal voice with round glasses, blue accent light, analytical expression. Clearly recognizable human face, centered for circle crop, near-black background, no symbols, no letters, no numbers."
+    },
+    {
+      "id": "voice_empathy",
+      "group": "Voices",
+      "aspect_ratio": "1:1",
+      "subject": "Photorealistic cinematic head portrait of a kind female internal voice, soft green accent light, warm empathetic expression. Clearly recognizable human face, centered for circle crop, near-black background, no symbols, no letters, no numbers."
+    },
+    {
+      "id": "voice_authority",
+      "group": "Voices",
+      "aspect_ratio": "1:1",
+      "subject": "Photorealistic cinematic head portrait of a stern mature male internal voice in tailored dark collar, muted gold accent light, resolute expression. Clearly recognizable human face, centered for circle crop, near-black background, no symbols, no letters, no numbers."
+    },
+    {
+      "id": "voice_madness",
+      "group": "Voices",
+      "aspect_ratio": "1:1",
+      "subject": "Photorealistic cinematic head portrait of an intense androgynous internal voice, disheveled dark hair, muted burgundy red accent light, haunted but human expression. Clearly recognizable human face, centered for circle crop, near-black background, no symbols, no letters, no numbers."
+    },
+    {
+      "id": "ending_a",
+      "group": "Endings",
+      "aspect_ratio": "16:9",
+      "subject": "The same tan-coated fedora detective and older charcoal-coated hatless former partner walk one behind the other into rainy blue-gray dawn. Rear view, wet street, subtle warm gold sunrise, bittersweet reconciliation. Full cinematic environment illustration, recognizable staging. Reserve bottom 18 percent dark low-detail space for separate subtitles."
+    },
+    {
+      "id": "ending_b",
+      "group": "Endings",
+      "aspect_ratio": "16:9",
+      "subject": "The same older charcoal-coated hatless man escorted by two distant police silhouettes toward a police car at dawn, while younger tan-coated fedora protagonist watches holding a folded paper. Restrained blue-red police light, no readable markings. Full cinematic environment illustration, recognizable staging. Reserve bottom 18 percent dark low-detail space for separate subtitles."
+    },
+    {
+      "id": "ending_c",
+      "group": "Endings",
+      "aspect_ratio": "16:9",
+      "subject": "The same tan-coated fedora protagonist alone at a wet rooftop edge, hand lowered after a moral choice, vast dark rainy city below, no victim or impact shown. Empty space and remorse. Full cinematic environment illustration, recognizable staging. Reserve bottom 18 percent dark low-detail space for separate subtitles."
+    },
+    {
+      "id": "ending_d",
+      "group": "Endings",
+      "aspect_ratio": "16:9",
+      "subject": "The same younger detective kneeling beside rain puddle, dropped silver badge in foreground, hat on wet ground, older charcoal-coated figure walking away blurred in background. Confused memory, no objective murder depiction. Full cinematic environment illustration, recognizable staging. Reserve bottom 18 percent dark low-detail space for separate subtitles."
+    },
+    {
+      "id": "ending_e",
+      "group": "Endings",
+      "aspect_ratio": "16:9",
+      "subject": "The same detective alone at a deserted intersection after rain, holding torn paper fragments, cold early dawn, endless streets, an unsolved investigation. Full cinematic environment illustration, recognizable staging. Reserve bottom 18 percent dark low-detail space for separate subtitles."
+    },
+    {
+      "id": "district_alley",
+      "group": "Districts",
+      "aspect_ratio": "16:9",
+      "subject": "narrow rain soaked old brick alley, garbage bin and discarded paper near foreground, warm lamp, deep shadow. No foreground people, cinematic wide establishing view, physically grounded old city consistent with reference."
+    },
+    {
+      "id": "district_redlight",
+      "group": "Districts",
+      "aspect_ratio": "16:9",
+      "subject": "old neon entertainment street with red telephone booth, weathered shops, wet pavement, subdued cyan purple and amber lights. No foreground people, cinematic wide establishing view, physically grounded old city consistent with reference."
+    },
+    {
+      "id": "district_financial",
+      "group": "Districts",
+      "aspect_ratio": "16:9",
+      "subject": "rainy financial district, tall glass offices towering above an old luxury apartment entrance, small plaza fountain, police tape without text. No foreground people, cinematic wide establishing view, physically grounded old city consistent with reference."
+    },
+    {
+      "id": "district_industrial",
+      "group": "Districts",
+      "aspect_ratio": "16:9",
+      "subject": "abandoned factory yard at night, warehouse, rusty gate, loading crates, metal stairs ascending toward rooftop, warm sodium lights. No foreground people, cinematic wide establishing view, physically grounded old city consistent with reference."
+    },
+    {
+      "id": "district_residential",
+      "group": "Districts",
+      "aspect_ratio": "16:9",
+      "subject": "quiet residential street at predawn, old apartment facades, lit windows, mailboxes, dim streetlamp and stray cat. No foreground people, cinematic wide establishing view, physically grounded old city consistent with reference."
+    },
+    {
+      "id": "ui_mind",
+      "group": "UI",
+      "aspect_ratio": "16:9",
+      "subject": "Overhead cinematic closeup of dark charcoal investigation desk with subtly layered worn paper edges at perimeter, almost empty center, very low contrast texture, no objects in central 75 percent, no writing, designed under white UI text."
+    },
+    {
+      "id": "ui_dialogue",
+      "group": "UI",
+      "aspect_ratio": "16:9",
+      "subject": "Extremely subtle charcoal blue black paper and rain fog texture, low contrast uniform center, soft vignette perimeter, no figures no objects no lettering, sophisticated noir dialogue panel background."
+    },
+    {
+      "id": "ui_settlement",
+      "group": "UI",
+      "aspect_ratio": "16:9",
+      "subject": "Cinematic dawn investigation desk, closed file folder and coffee cup near extreme bottom right edges, pale gold light on damp wood, central 65 percent empty dark surface for readable UI overlay, no writing."
+    },
+    {
+      "id": "evidence_badge",
+      "group": "Evidence",
+      "aspect_ratio": "4:3",
+      "subject": "a worn silver police shield badge with blank unlettered face on wet dark pavement, macro cinematic detail. Single clear evidence subject occupies central 65 percent, realistic materials and shallow depth of field. No titles, numbers, logos or watermark."
+    },
+    {
+      "id": "evidence_bloody_note",
+      "group": "Evidence",
+      "aspect_ratio": "4:3",
+      "subject": "a small folded cream paper scrap with a tiny dark dried blood spot, damp wrinkled edges on dark desk, no writing. Single clear evidence subject occupies central 65 percent, realistic materials and shallow depth of field. No titles, numbers, logos or watermark."
+    },
+    {
+      "id": "evidence_door_record",
+      "group": "Evidence",
+      "aspect_ratio": "4:3",
+      "subject": "closeup of an old access-control reader and a small blank receipt strip, tiny blue indicator lights, no readable screen content. Single clear evidence subject occupies central 65 percent, realistic materials and shallow depth of field. No titles, numbers, logos or watermark."
+    },
+    {
+      "id": "evidence_diary",
+      "group": "Evidence",
+      "aspect_ratio": "4:3",
+      "subject": "a worn brown pocket diary open to aged cream pages with abstract indistinct ink strokes, no legible text, cinematic evidence photograph. Single clear evidence subject occupies central 65 percent, realistic materials and shallow depth of field. No titles, numbers, logos or watermark."
+    },
+    {
+      "id": "evidence_recording",
+      "group": "Evidence",
+      "aspect_ratio": "4:3",
+      "subject": "small black handheld digital voice recorder with metal microphone grille on dark wooden desk, unlit blank display, evidence still life. Single clear evidence subject occupies central 65 percent, realistic materials and shallow depth of field. No titles, numbers, logos or watermark."
+    },
+    {
+      "id": "evidence_napkin",
+      "group": "Evidence",
+      "aspect_ratio": "4:3",
+      "subject": "a crumpled off-white cafe napkin with right edge torn away, faint illegible ink traces, dark coffee stain, cinematic evidence photograph. Single clear evidence subject occupies central 65 percent, realistic materials and shallow depth of field. No titles, numbers, logos or watermark."
+    },
+    {
+      "id": "evidence_key",
+      "group": "Evidence",
+      "aspect_ratio": "4:3",
+      "subject": "one worn brass key with plain metal ring on damp concrete, distinctive notched blade and rectangular bow, macro detail. Single clear evidence subject occupies central 65 percent, realistic materials and shallow depth of field. No titles, numbers, logos or watermark."
+    },
+    {
+      "id": "evidence_gate",
+      "group": "Evidence",
+      "aspect_ratio": "4:3",
+      "subject": "macro view of old iron gate lock cylinder with fresh bright scratches in rusty metal, no key inserted, blue-gray rain drops. Single clear evidence subject occupies central 65 percent, realistic materials and shallow depth of field. No titles, numbers, logos or watermark."
+    },
+    {
+      "id": "evidence_partners",
+      "group": "Evidence",
+      "aspect_ratio": "4:3",
+      "subject": "aged physical photograph lying on desk, two East Asian police detectives standing shoulder to shoulder: younger short black hair man and older angular face man with combed back graying hair, formal dark uniforms without text, warm memory lighting, no captions. Single clear evidence subject occupies central 65 percent, realistic materials and shallow depth of field. No titles, numbers, logos or watermark."
+    },
+    {
+      "id": "evidence_letter",
+      "group": "Evidence",
+      "aspect_ratio": "4:3",
+      "subject": "unmailed cream envelope and unfolded ivory letter sheet, small abstract ink traces, no legible writing, one brass paperclip on dark desk, distinct from blood paper scrap. Single clear evidence subject occupies central 65 percent, realistic materials and shallow depth of field. No titles, numbers, logos or watermark."
+    },
+    {
+      "id": "evidence_dismissal",
+      "group": "Evidence",
+      "aspect_ratio": "4:3",
+      "subject": "formal cold-white personnel notice on blue-gray file folder with muted red rectangular stamp shape without characters, no legible writing. Single clear evidence subject occupies central 65 percent, realistic materials and shallow depth of field. No titles, numbers, logos or watermark."
+    },
+    {
+      "id": "evidence_victim_notes",
+      "group": "Evidence",
+      "aspect_ratio": "4:3",
+      "subject": "an open dark-green cloth notebook containing loose yellow research slips and tiny monochrome transaction photographs, restrained scribbles without readable text, dark desk, distinct from brown diary. Single clear evidence subject occupies central 65 percent, realistic materials and shallow depth of field. No titles, numbers, logos or watermark."
+    }
+  ]
+}

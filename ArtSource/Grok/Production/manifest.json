@@ -1,0 +1,676 @@
+{
+  "reference": "../MenuCandidates/C_badge_clue.jpg",
+  "generator": "local GROK CLI / native image_gen",
+  "images": [
+    {
+      "id": "portrait_hero",
+      "group": "Portraits",
+      "path": "Originals\\Portraits\\portrait_hero.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\5.jpg",
+      "input": {
+        "prompt": "Photorealistic cinematic bust portrait of an East Asian male detective about 35, tired eyes, short black hair, a faint bruise on the left cheek, tan trench coat, dark fedora, white shirt and a loosened dark tie. Head and shoulders in three-quarter view, face centered safely in the middle of the frame, single subject against a dark blue-gray empty background. Restrained warm amber key light, subtle cyan-violet rim, tactile wool and cotton, shallow depth of field, film-still urban noir quality.",
+        "aspect_ratio": "1:1"
+      },
+      "batch": 1,
+      "runtime": "Assets\\Resources\\Detective\\Art\\Generated\\portrait_hero.jpg",
+      "sha256": "550422dd7a49db87a82f3c1d41e01a79f14848ca49704569e372c603481e1def"
+    },
+    {
+      "id": "portrait_trenchcoat",
+      "group": "Portraits",
+      "path": "Originals\\Portraits\\portrait_trenchcoat.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\6.jpg",
+      "input": {
+        "prompt": "Photorealistic cinematic bust portrait of an East Asian man about 45, angular face, short graying black hair combed back, charcoal trench coat, no hat, weary guarded gaze. Former police detective, visibly older and distinct from a younger protagonist. Head and shoulders, face centered safely in the middle of the frame, single subject against a dark blue-gray empty background. Restrained warm amber key light, subtle cyan-violet rim, tactile wool fabric, shallow depth of field, film-still urban noir quality.",
+        "aspect_ratio": "1:1"
+      },
+      "batch": 1,
+      "runtime": "Assets\\Resources\\Detective\\Art\\Generated\\portrait_trenchcoat.jpg",
+      "sha256": "d61e493c378f1876a760b0311a8e982f7b65cfedb3e483df87ecb5be88513aa7"
+    },
+    {
+      "id": "portrait_woman",
+      "group": "Portraits",
+      "path": "Originals\\Portraits\\portrait_woman.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\7.jpg",
+      "input": {
+        "prompt": "Photorealistic cinematic bust portrait of an East Asian woman about 32, shoulder-length dark hair, pale beige raincoat, anxious restrained expression, a transparent umbrella edge behind her head. Head and shoulders, face centered safely in the middle of the frame, single subject against a dark blue-gray empty background. Restrained warm amber key light, subtle cyan-violet rim, tactile raincoat fabric, shallow depth of field, film-still urban noir quality.",
+        "aspect_ratio": "1:1"
+      },
+      "batch": 1,
+      "runtime": "Assets\\Resources\\Detective\\Art\\Generated\\portrait_woman.jpg",
+      "sha256": "ded12b1e6ed6366da188401d51f079de461b3d13253687567dbc319c124e926c"
+    },
+    {
+      "id": "portrait_bartender",
+      "group": "Portraits",
+      "path": "Originals\\Portraits\\portrait_bartender.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\8.jpg",
+      "input": {
+        "prompt": "Photorealistic cinematic bust portrait of an East Asian bald male bartender about 60, a discreet mechanical prosthetic right eye, weathered face, white shirt and dark waistcoat, compassionate but guarded expression. Head and shoulders, face centered safely in the middle of the frame, single subject against a dark blue-gray empty background. Restrained warm amber key light, subtle cyan-violet rim, tactile cotton and wool, shallow depth of field, film-still urban noir quality.",
+        "aspect_ratio": "1:1"
+      },
+      "batch": 1,
+      "runtime": "Assets\\Resources\\Detective\\Art\\Generated\\portrait_bartender.jpg",
+      "sha256": "2c75dc9f185c81d4e482f98d292efad6918f636b4cc5b496e36eb347ee15add0"
+    },
+    {
+      "id": "portrait_guard",
+      "group": "Portraits",
+      "path": "Originals\\Portraits\\portrait_guard.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\9.jpg",
+      "input": {
+        "prompt": "Photorealistic cinematic bust portrait of an East Asian male security guard about 24, navy security uniform with plain unmarked fabric, tense face, short neat hair. Head and shoulders, face centered safely in the middle of the frame, single subject against a dark blue-gray empty background. Restrained warm amber key light, subtle cyan-violet rim, tactile cloth, shallow depth of field, film-still urban noir quality.",
+        "aspect_ratio": "1:1"
+      },
+      "batch": 1,
+      "runtime": "Assets\\Resources\\Detective\\Art\\Generated\\portrait_guard.jpg",
+      "sha256": "1a4dee8724d105e709c44c72024de45d73d213801d9b524c654167b8e9767855"
+    },
+    {
+      "id": "portrait_beggar",
+      "group": "Portraits",
+      "path": "Originals\\Portraits\\portrait_beggar.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\10.jpg",
+      "input": {
+        "prompt": "Photorealistic cinematic bust portrait of an elderly East Asian woman about 70, worn layered clothing, a blanket over her shoulders, silver hair, alert tired eyes, dignified presence. Head and shoulders, face centered safely in the middle of the frame, single subject against a dark blue-gray empty background. Restrained warm amber key light, subtle cyan-violet rim, tactile knitted fabric, shallow depth of field, film-still urban noir quality.",
+        "aspect_ratio": "1:1"
+      },
+      "batch": 1,
+      "runtime": "Assets\\Resources\\Detective\\Art\\Generated\\portrait_beggar.jpg",
+      "sha256": "5621ae9dc7dcb08375bb6152b6535b8ae77d73bdfaeab855ac2687f6a8a93e60"
+    },
+    {
+      "id": "portrait_barista",
+      "group": "Portraits",
+      "path": "Originals\\Portraits\\portrait_barista.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\11.jpg",
+      "input": {
+        "prompt": "Photorealistic cinematic bust portrait of an East Asian female barista about 26, dark hair tied back, brown apron over a cream shirt, concerned recognizing gaze. Head and shoulders, face centered safely in the middle of the frame, single subject against a dark blue-gray empty background. Restrained warm amber key light, subtle cyan-violet rim, tactile cotton apron, shallow depth of field, film-still urban noir quality.",
+        "aspect_ratio": "1:1"
+      },
+      "batch": 1,
+      "runtime": "Assets\\Resources\\Detective\\Art\\Generated\\portrait_barista.jpg",
+      "sha256": "95f78808521923e4b0d814c63b10ad47e55b7fcfd35e684212e775fcf6b87bb2"
+    },
+    {
+      "id": "portrait_monkey",
+      "group": "Portraits",
+      "path": "Originals\\Portraits\\portrait_monkey.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\12.jpg",
+      "input": {
+        "prompt": "Photorealistic cinematic bust portrait of a thin East Asian man about 38, narrow face, disheveled short hair, worn olive jacket, wary nervous expression, naturalistic features. Head and shoulders, face centered safely in the middle of the frame, single subject against a dark blue-gray empty background. Restrained warm amber key light, subtle cyan-violet rim, tactile worn fabric, shallow depth of field, film-still urban noir quality.",
+        "aspect_ratio": "1:1"
+      },
+      "batch": 1,
+      "runtime": "Assets\\Resources\\Detective\\Art\\Generated\\portrait_monkey.jpg",
+      "sha256": "f026644988e5e33d50aab85e3eedbb8feee890ed0813cb8fb8136a78cb551dd6"
+    },
+    {
+      "id": "portrait_sniper",
+      "group": "Portraits",
+      "path": "Originals\\Portraits\\portrait_sniper.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\13.jpg",
+      "input": {
+        "prompt": "Photorealistic cinematic bust portrait of an adult male in a dark hooded rain jacket, face partly shadowed but fully realistic, solemn expression, a discreet rifle sling over one shoulder. Head and shoulders, face centered safely in the middle of the frame, single subject against a dark blue-gray empty background. Restrained warm amber key light, subtle cyan-violet rim, tactile wet nylon, shallow depth of field, film-still urban noir quality.",
+        "aspect_ratio": "1:1"
+      },
+      "batch": 1,
+      "runtime": "Assets\\Resources\\Detective\\Art\\Generated\\portrait_sniper.jpg",
+      "sha256": "a7e95f4516ef39d0638fddda3f775e921093898c54c75055de92db846d4944f2"
+    },
+    {
+      "id": "portrait_wife",
+      "group": "Portraits",
+      "path": "Originals\\Portraits\\portrait_wife.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\14.jpg",
+      "input": {
+        "prompt": "Photorealistic cinematic bust portrait of an East Asian widow about 36, shoulder-length dark hair, simple muted cardigan, reddened eyes and restrained grief. Head and shoulders, face centered safely in the middle of the frame, single subject against a dark blue-gray empty background. Restrained warm amber key light, subtle cyan-violet rim, tactile knit fabric, shallow depth of field, film-still urban noir quality.",
+        "aspect_ratio": "1:1"
+      },
+      "batch": 1,
+      "runtime": "Assets\\Resources\\Detective\\Art\\Generated\\portrait_wife.jpg",
+      "sha256": "b9e9a58b041f987a142db64e8a8bcdf553a08762eed4afeff5592e4367180a53"
+    },
+    {
+      "id": "voice_logic",
+      "group": "Voices",
+      "path": "Originals\\Voices\\voice_logic.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\15.jpg",
+      "input": {
+        "prompt": "Photorealistic cinematic head portrait of a thoughtful East Asian man about 40, round glasses, analytical expression, cool blue accent light on a near-black empty background. Clearly recognizable human face centered in the frame for a circle crop, head and upper shoulders only, single subject. Tactile skin and glass, film-still urban noir quality, no props besides the glasses.",
+        "aspect_ratio": "1:1"
+      },
+      "batch": 2,
+      "runtime": "Assets\\Resources\\Detective\\Art\\Generated\\voice_logic.jpg",
+      "sha256": "5535b026baf1b4214b79a08c8ba0215dbf6ad6df0116aa9186d25fa75c30bfcd"
+    },
+    {
+      "id": "voice_empathy",
+      "group": "Voices",
+      "path": "Originals\\Voices\\voice_empathy.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\16.jpg",
+      "input": {
+        "prompt": "Photorealistic cinematic head portrait of a kind East Asian woman about 35, soft green accent light, warm empathetic expression, near-black empty background. Clearly recognizable human face centered in the frame for a circle crop, head and upper shoulders only, single subject. Tactile skin, film-still urban noir quality.",
+        "aspect_ratio": "1:1"
+      },
+      "batch": 2,
+      "runtime": "Assets\\Resources\\Detective\\Art\\Generated\\voice_empathy.jpg",
+      "sha256": "59e6cc82a38ec7da44c54c81aa25f09b18497ff0ced239b4be47b5c340cff2cb"
+    },
+    {
+      "id": "voice_authority",
+      "group": "Voices",
+      "path": "Originals\\Voices\\voice_authority.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\17.jpg",
+      "input": {
+        "prompt": "Photorealistic cinematic head portrait of a stern mature East Asian man about 50 in a tailored dark collar, muted gold accent light, resolute expression, near-black empty background. Clearly recognizable human face centered in the frame for a circle crop, head and upper shoulders only, single subject. Tactile skin and fabric, film-still urban noir quality.",
+        "aspect_ratio": "1:1"
+      },
+      "batch": 2,
+      "runtime": "Assets\\Resources\\Detective\\Art\\Generated\\voice_authority.jpg",
+      "sha256": "6862e9a9354fa262deff2bedcd9cb942f89a316550f28c9b26a2bbd3f5679f45"
+    },
+    {
+      "id": "voice_madness",
+      "group": "Voices",
+      "path": "Originals\\Voices\\voice_madness.jpg",
+      "size": [
+        1024,
+        1024
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\18.jpg",
+      "input": {
+        "prompt": "Photorealistic cinematic head portrait of an intense androgynous East Asian adult with disheveled dark hair, muted burgundy red accent light, haunted but fully human expression, near-black empty background. Clearly recognizable human face centered in the frame for a circle crop, head and upper shoulders only, single subject. Tactile skin, film-still urban noir quality.",
+        "aspect_ratio": "1:1"
+      },
+      "batch": 2,
+      "runtime": "Assets\\Resources\\Detective\\Art\\Generated\\voice_madness.jpg",
+      "sha256": "ae97c480b045ef03015922621047142f18d167352890dcdcdba080fa0e7dbb02"
+    },
+    {
+      "id": "ending_a",
+      "group": "Endings",
+      "path": "Originals\\Endings\\ending_a.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\46.jpg",
+      "input": {
+        "prompt": "Photorealistic cinematic 16:9 film still, one single continuous camera shot filling the entire frame from top edge to bottom edge. Wide rear view of two East Asian men walking down the same wet city street at rainy dawn: the younger hero, 35, in a tan trench coat and dark fedora, one step ahead on the left; the older former partner, 45, angular face, graying hair combed back, charcoal trench coat and no hat, one step behind on the right. Continuous wet asphalt runs unbroken from their feet to the bottom edge of the frame, consistent perspective, blue-gray rain, restrained warm amber practical light. Full-bleed photographic environment, tactile wool and rain.",
+        "aspect_ratio": "16:9"
+      },
+      "batch": 2,
+      "revision": 2,
+      "runtime": "Assets\\Resources\\Detective\\Art\\Generated\\ending_a.jpg",
+      "sha256": "9e9123bab2c598924a414ff5278c9b1a8a6a39683e350e0c8012b4519b002538"
+    },
+    {
+      "id": "ending_b",
+      "group": "Endings",
+      "path": "Originals\\Endings\\ending_b.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\47.jpg",
+      "input": {
+        "prompt": "Photorealistic cinematic 16:9 film still, one single continuous camera shot filling the entire frame from top edge to bottom edge. Wide rainy dawn street: the younger East Asian hero, 35, tan trench coat and dark fedora, stands at left holding a folded blank paper, watching as the older former partner, 45, charcoal trench coat no hat, is escorted by two officers toward an unmarked dark sedan at right. Continuous wet street surface throughout the entire frame to the bottom edge, consistent perspective, restrained blue-red emergency glow mixed with blue-gray rain and warm amber lamps. Full-bleed photographic environment, tactile wool and rain, unmarked vehicles.",
+        "aspect_ratio": "16:9"
+      },
+      "batch": 2,
+      "revision": 2,
+      "runtime": "Assets\\Resources\\Detective\\Art\\Generated\\ending_b.jpg",
+      "sha256": "99c92836d9f2523efa5d4134dcc8d5c1c70ea79c49b6f179c147910022a2a8b7"
+    },
+    {
+      "id": "ending_c",
+      "group": "Endings",
+      "path": "Originals\\Endings\\ending_c.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\48.jpg",
+      "input": {
+        "prompt": "Photorealistic cinematic 16:9 film still, one single continuous camera shot filling the entire frame from top edge to bottom edge. Wide view of the younger East Asian hero, 35, tan trench coat and dark fedora, standing alone at a wet rooftop edge overlooking a rainy city, one hand lowered after a moral choice, no other people below. Continuous rooftop concrete in the foreground runs unbroken to the bottom edge of the frame, realistic perspective, vast blue-gray rainy city, restrained warm amber windows. Full-bleed photographic environment, tactile wet concrete and wool.",
+        "aspect_ratio": "16:9"
+      },
+      "batch": 2,
+      "revision": 2,
+      "runtime": "Assets\\Resources\\Detective\\Art\\Generated\\ending_c.jpg",
+      "sha256": "55d7c01ce872df7f0cddb65f7f5922536e562dbb9d74fd42874b5434ba98e70c"
+    },
+    {
+      "id": "ending_d",
+      "group": "Endings",
+      "path": "Originals\\Endings\\ending_d.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\49.jpg",
+      "input": {
+        "prompt": "Photorealistic cinematic 16:9 film still, one single continuous camera shot filling the entire frame from top edge to bottom edge. Wide rainy street: the younger East Asian hero, 35, tan trench coat, kneels on rain-soaked pavement, a plain unlettered silver badge near his knee and his dark fedora on the ground; in the background the older former partner, 45, charcoal trench coat no hat, walks away from him. Continuous wet pavement throughout the entire frame to the bottom edge, consistent perspective, blue-gray rain, restrained warm amber lamps. Full-bleed photographic environment, quiet aftermath, tactile wool and rain.",
+        "aspect_ratio": "16:9"
+      },
+      "batch": 2,
+      "revision": 2,
+      "runtime": "Assets\\Resources\\Detective\\Art\\Generated\\ending_d.jpg",
+      "sha256": "5ea3ee66ce173cd8eedf4ba2d5634e8c30b7a27e9563d087a981ac4b2032a78f"
+    },
+    {
+      "id": "ending_e",
+      "group": "Endings",
+      "path": "Originals\\Endings\\ending_e.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\50.jpg",
+      "input": {
+        "prompt": "Photorealistic cinematic 16:9 film still, one single continuous camera shot filling the entire frame from top edge to bottom edge. Wide view of the younger East Asian hero, 35, tan trench coat and dark fedora, standing alone at an empty wet intersection after rain, holding torn paper fragments, cold dawn, understated defeated posture. Continuous urban street scene throughout the entire frame to the bottom edge, endless analog city streets, blue-gray atmosphere, restrained warm amber signal glow. Full-bleed photographic environment, tactile wool and wet asphalt.",
+        "aspect_ratio": "16:9"
+      },
+      "batch": 2,
+      "revision": 2,
+      "runtime": "Assets\\Resources\\Detective\\Art\\Generated\\ending_e.jpg",
+      "sha256": "468217ed07379f4cea4bb67ab86d6b2fb89de10962bb0866707e292c464082bc"
+    },
+    {
+      "id": "district_alley",
+      "group": "Districts",
+      "path": "Originals\\Districts\\district_alley.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\24.jpg",
+      "input": {
+        "prompt": "Photorealistic cinematic 16:9 establishing view of a narrow rain-soaked old brick alley in an East Asian city at night. A metal garbage bin and a few discarded blank papers sit near the foreground, a warm amber lamp glows down the passage, deep blue-gray shadows, wet cobblestones with reflections, subtle cyan-violet neon leaking from a far street. Empty of people, tactile brick and rain, analog 1980s architecture, film-still quality, unmarked walls.",
+        "aspect_ratio": "16:9"
+      },
+      "batch": 3,
+      "runtime": "Assets\\Resources\\Detective\\Art\\Generated\\district_alley.jpg",
+      "sha256": "eecef1f17f65316c4dc836c12de84a18db771fd6f36e8da20172b2fba2d380f9"
+    },
+    {
+      "id": "district_redlight",
+      "group": "Districts",
+      "path": "Originals\\Districts\\district_redlight.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\25.jpg",
+      "input": {
+        "prompt": "Photorealistic cinematic 16:9 establishing view of an old neon entertainment street at night in a rain-soaked East Asian city. A vintage red telephone booth stands among weathered shopfronts, wet pavement mirroring subdued cyan-purple neon and warm amber lamps. Empty of people, analog 1980s brick district, fire-escape stairs, tactile wet asphalt and painted metal, film-still urban noir quality, blank unmarked shopfronts.",
+        "aspect_ratio": "16:9"
+      },
+      "batch": 3,
+      "runtime": "Assets\\Resources\\Detective\\Art\\Generated\\district_redlight.jpg",
+      "sha256": "cbf5cfc0e2c216435ff9625bc5ae0a7541d4402fef5e69d5b7d50b70ce6fb360"
+    },
+    {
+      "id": "district_financial",
+      "group": "Districts",
+      "path": "Originals\\Districts\\district_financial.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\26.jpg",
+      "input": {
+        "prompt": "Photorealistic cinematic 16:9 establishing view of a rainy financial district at night in an East Asian city. Tall glass office towers rise above an old luxury apartment entrance, a small plaza fountain sits in the wet plaza, and blank unmarked police tape stretches across a sidewalk without lettering. Empty of people, blue-gray rain, restrained warm amber lobby light and subtle cyan-violet reflections, tactile stone and glass, film-still urban noir quality.",
+        "aspect_ratio": "16:9"
+      },
+      "batch": 3,
+      "runtime": "Assets\\Resources\\Detective\\Art\\Generated\\district_financial.jpg",
+      "sha256": "c639bcd24375c7bf74da91e35d9fed919bc3ad18e142b0b73f83823043aa36a6"
+    },
+    {
+      "id": "district_industrial",
+      "group": "Districts",
+      "path": "Originals\\Districts\\district_industrial.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\27.jpg",
+      "input": {
+        "prompt": "Photorealistic cinematic 16:9 establishing view of an abandoned factory yard at night in an old East Asian city. A warehouse, rusty gate, stacked loading crates, and metal stairs ascending toward a rooftop, lit by warm sodium lamps. Empty of people, rain-slick concrete, blue-gray shadows, tactile rusted metal and wet pavement, film-still urban noir quality, unmarked walls and crates.",
+        "aspect_ratio": "16:9"
+      },
+      "batch": 3,
+      "runtime": "Assets\\Resources\\Detective\\Art\\Generated\\district_industrial.jpg",
+      "sha256": "ca8451ab936f3ca26461e16d08456a900254df8365278be6eae03af0c714b5fb"
+    },
+    {
+      "id": "district_residential",
+      "group": "Districts",
+      "path": "Originals\\Districts\\district_residential.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\28.jpg",
+      "input": {
+        "prompt": "Photorealistic cinematic 16:9 establishing view of a quiet residential street at predawn in an old East Asian city. Old apartment facades with a few lit windows, a row of mailboxes, a dim warm streetlamp, and a stray cat on the wet sidewalk. Empty of people, blue-gray early light, tactile plaster and rain, film-still urban noir quality, unmarked buildings.",
+        "aspect_ratio": "16:9"
+      },
+      "batch": 3,
+      "runtime": "Assets\\Resources\\Detective\\Art\\Generated\\district_residential.jpg",
+      "sha256": "8b2671d79adaa552bd80c2424b6c0c556e9fee6262f7dd2810600008f036836a"
+    },
+    {
+      "id": "ui_mind",
+      "group": "UI",
+      "path": "Originals\\UI\\ui_mind.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\29.jpg",
+      "input": {
+        "prompt": "Photorealistic cinematic 16:9 overhead closeup of a dark charcoal investigation desk. Subtly layered worn blank paper edges sit only at the far perimeter, the central three-quarters of the frame is an almost empty low-contrast dark wood surface with faint grain, ready for white UI overlay. Blue-gray shadows, restrained warm amber edge light, tactile wood, no objects in the center, blank paper with no lettering, film-still quality.",
+        "aspect_ratio": "16:9"
+      },
+      "batch": 3,
+      "runtime": "Assets\\Resources\\Detective\\Art\\Generated\\ui_mind.jpg",
+      "sha256": "095cc51a4eb78d9e3036f1ce783b275ef18e5b329520e39dcbeca620f1d98530"
+    },
+    {
+      "id": "ui_dialogue",
+      "group": "UI",
+      "path": "Originals\\UI\\ui_dialogue.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\30.jpg",
+      "input": {
+        "prompt": "Photorealistic cinematic 16:9 abstract background of extremely subtle charcoal blue-black paper fiber and rain-fog texture. Low-contrast uniform empty center, soft vignette at the perimeter, no figures, no objects, no lettering. Sophisticated noir dialogue panel, film-still quality, quiet atmospheric grain.",
+        "aspect_ratio": "16:9"
+      },
+      "batch": 3,
+      "runtime": "Assets\\Resources\\Detective\\Art\\Generated\\ui_dialogue.jpg",
+      "sha256": "e57fd33014b7841e14b29e59a829f75d48ad8c51e58d266051a3ebf32b99099e"
+    },
+    {
+      "id": "ui_settlement",
+      "group": "UI",
+      "path": "Originals\\UI\\ui_settlement.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\31.jpg",
+      "input": {
+        "prompt": "Photorealistic cinematic 16:9 view of a dawn investigation desk. A closed blank file folder and a coffee cup sit only at the extreme bottom-right edge, pale gold morning light on damp dark wood. The central two-thirds of the frame is empty low-contrast dark surface for a readable UI overlay. Blue-gray shadows, tactile wood and ceramic, film-still urban noir quality, no lettering on the folder.",
+        "aspect_ratio": "16:9"
+      },
+      "batch": 3,
+      "runtime": "Assets\\Resources\\Detective\\Art\\Generated\\ui_settlement.jpg",
+      "sha256": "fc4c92d79bc7a740eb1bbfc904b18f9ad9f3a7ffdd0e7a0f32979829dc60a631"
+    },
+    {
+      "id": "evidence_badge",
+      "group": "Evidence",
+      "path": "Originals\\Evidence\\evidence_badge.jpg",
+      "size": [
+        1152,
+        864
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\44.jpg",
+      "input": {
+        "prompt": "Photorealistic cinematic extreme close-up, 4:3 frame. A single worn silver police shield badge with a completely plain blank center rests on wet dark pavement, fully visible and centered. Frame contains only the badge and rain-soaked pavement, tactile metal and raindrops, blue-gray shadows, restrained warm amber streetlight, shallow depth of field, film-still urban noir quality.",
+        "aspect_ratio": "4:3"
+      },
+      "batch": 4,
+      "revision": 2,
+      "runtime": "Assets\\Resources\\Detective\\Art\\Generated\\evidence_badge.jpg",
+      "sha256": "e49da0ae4214a7ab1b206f4f33ba9d504d3ad19135eee940cafdb10ad584446d"
+    },
+    {
+      "id": "evidence_bloody_note",
+      "group": "Evidence",
+      "path": "Originals\\Evidence\\evidence_bloody_note.jpg",
+      "size": [
+        1152,
+        864
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\33.jpg",
+      "input": {
+        "prompt": "Photorealistic cinematic evidence photograph, 4:3 frame. A small folded cream paper scrap with one tiny dark dried blood spot and damp wrinkled edges lies on a dark wooden desk, occupying the central two-thirds of the frame. Completely blank paper with no writing. Macro detail, tactile fibers, shallow depth of field, blue-gray shadows, restrained warm amber lamp, film-still urban noir quality.",
+        "aspect_ratio": "4:3"
+      },
+      "batch": 4,
+      "runtime": "Assets\\Resources\\Detective\\Art\\Generated\\evidence_bloody_note.jpg",
+      "sha256": "19c66f98fccf2c7f830e6c971b33e1cc0f356b1af54999d92f2dd4ad9a6aedd4"
+    },
+    {
+      "id": "evidence_door_record",
+      "group": "Evidence",
+      "path": "Originals\\Evidence\\evidence_door_record.jpg",
+      "size": [
+        1152,
+        864
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\34.jpg",
+      "input": {
+        "prompt": "Photorealistic cinematic evidence photograph, 4:3 frame. Closeup of an old wall-mounted access-control card reader beside a small blank receipt strip, tiny unlit-to-dim blue indicator lights, dark empty screen with no readable content. The reader and strip occupy the central two-thirds of the frame. Tactile worn plastic and paper, shallow depth of field, blue-gray shadows, restrained warm amber hallway light, film-still urban noir quality.",
+        "aspect_ratio": "4:3"
+      },
+      "batch": 4,
+      "runtime": "Assets\\Resources\\Detective\\Art\\Generated\\evidence_door_record.jpg",
+      "sha256": "4348c5a6afa68c0715e06dde69af2aedff38f0cfcf9b2faa5c72992b6a6778fe"
+    },
+    {
+      "id": "evidence_diary",
+      "group": "Evidence",
+      "path": "Originals\\Evidence\\evidence_diary.jpg",
+      "size": [
+        1152,
+        864
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\35.jpg",
+      "input": {
+        "prompt": "Photorealistic cinematic evidence photograph, 4:3 frame. A worn brown pocket diary open on a dark desk, aged cream pages filled only with abstract indistinct ink strokes, no legible text. The open diary occupies the central two-thirds of the frame. Tactile leather and paper, shallow depth of field, blue-gray shadows, restrained warm amber lamp, film-still urban noir quality.",
+        "aspect_ratio": "4:3"
+      },
+      "batch": 4,
+      "runtime": "Assets\\Resources\\Detective\\Art\\Generated\\evidence_diary.jpg",
+      "sha256": "f17dd3674e5069b13d4d148de7f8d7f9c4ca9aeb339b91f1cff3d79040f0ad97"
+    },
+    {
+      "id": "evidence_recording",
+      "group": "Evidence",
+      "path": "Originals\\Evidence\\evidence_recording.jpg",
+      "size": [
+        1152,
+        864
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\36.jpg",
+      "input": {
+        "prompt": "Photorealistic cinematic evidence still life, 4:3 frame. A small black handheld digital voice recorder with a metal microphone grille rests on a dark wooden desk, display unlit and completely blank. The recorder occupies the central two-thirds of the frame. Tactile plastic and metal, shallow depth of field, blue-gray shadows, restrained warm amber lamp, film-still urban noir quality.",
+        "aspect_ratio": "4:3"
+      },
+      "batch": 4,
+      "runtime": "Assets\\Resources\\Detective\\Art\\Generated\\evidence_recording.jpg",
+      "sha256": "e9a1c76b95130bc9f505b2e988f26845f7f81a98503abb29c3d3fa249808b209"
+    },
+    {
+      "id": "evidence_napkin",
+      "group": "Evidence",
+      "path": "Originals\\Evidence\\evidence_napkin.jpg",
+      "size": [
+        1152,
+        864
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\37.jpg",
+      "input": {
+        "prompt": "Photorealistic cinematic evidence photograph, 4:3 frame. A crumpled off-white cafe napkin with the right edge torn away, faint illegible ink traces, and a dark coffee stain, occupying the central two-thirds of the frame on a dark desk. Tactile paper fibers, shallow depth of field, blue-gray shadows, restrained warm amber lamp, film-still urban noir quality, no readable writing.",
+        "aspect_ratio": "4:3"
+      },
+      "batch": 4,
+      "runtime": "Assets\\Resources\\Detective\\Art\\Generated\\evidence_napkin.jpg",
+      "sha256": "a5123a301bdce2fa2578de5864177a6b92b36cb2cb8ed6e7ed61efcb79fc2b8b"
+    },
+    {
+      "id": "evidence_key",
+      "group": "Evidence",
+      "path": "Originals\\Evidence\\evidence_key.jpg",
+      "size": [
+        1152,
+        864
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\45.jpg",
+      "input": {
+        "prompt": "Photorealistic cinematic macro photograph, 4:3 frame. A single worn brass door key with a plain rectangular bow and a simple small ring lies on damp dark concrete, the entire key visible at center. Frame contains only the key, ring, and concrete. Cool blue-gray shadows, warm amber reflection on metal, tactile brass and wet stone, shallow depth of field, film-still urban noir quality.",
+        "aspect_ratio": "4:3"
+      },
+      "batch": 4,
+      "revision": 2,
+      "runtime": "Assets\\Resources\\Detective\\Art\\Generated\\evidence_key.jpg",
+      "sha256": "d2665624e2762ac96e71e5a3e8f3866052cfb208e42fcfa7ecc486365d15822f"
+    },
+    {
+      "id": "evidence_gate",
+      "group": "Evidence",
+      "path": "Originals\\Evidence\\evidence_gate.jpg",
+      "size": [
+        1152,
+        864
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\39.jpg",
+      "input": {
+        "prompt": "Photorealistic cinematic evidence photograph, 4:3 frame. Macro view of an old iron gate lock cylinder with fresh bright scratches in rusty metal, no key inserted, blue-gray raindrops on the surface. The lock occupies the central two-thirds of the frame. Tactile rust and steel, shallow depth of field, restrained warm sodium light, film-still urban noir quality.",
+        "aspect_ratio": "4:3"
+      },
+      "batch": 4,
+      "runtime": "Assets\\Resources\\Detective\\Art\\Generated\\evidence_gate.jpg",
+      "sha256": "3f43368ff83e56c3fb012c64a4046eca3ccf4c2a34e43cbbdac3158ed9aba09e"
+    },
+    {
+      "id": "evidence_partners",
+      "group": "Evidence",
+      "path": "Originals\\Evidence\\evidence_partners.jpg",
+      "size": [
+        1152,
+        864
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\40.jpg",
+      "input": {
+        "prompt": "Photorealistic cinematic evidence photograph, 4:3 frame. An aged physical print lies on a dark wooden desk, occupying the central two-thirds of the frame. The print shows two East Asian police detectives standing shoulder to shoulder: a younger man with short black hair and a faint bruise on the left cheek, and an older angular-faced man with short graying hair combed back, both in formal dark uniforms with unmarked fabric. Warm memory lighting inside the print, tactile faded paper and desk wood, shallow depth of field, no captions. Film-still urban noir quality.",
+        "aspect_ratio": "4:3"
+      },
+      "batch": 4,
+      "runtime": "Assets\\Resources\\Detective\\Art\\Generated\\evidence_partners.jpg",
+      "sha256": "bcd5e088259a83f2c9d6e5789c063e32c36e1a06e851e5d5e436a302a8e9ab5d"
+    },
+    {
+      "id": "evidence_letter",
+      "group": "Evidence",
+      "path": "Originals\\Evidence\\evidence_letter.jpg",
+      "size": [
+        1152,
+        864
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\41.jpg",
+      "input": {
+        "prompt": "Photorealistic cinematic evidence photograph, 4:3 frame. An unmailed cream envelope and an unfolded ivory letter sheet lie together on a dark wooden desk with one brass paperclip, occupying the central two-thirds of the frame. Only small abstract ink traces, no legible writing. Distinct from a tiny blood-stained scrap: this is a full letter set. Tactile paper and metal, shallow depth of field, blue-gray shadows, restrained warm amber lamp, film-still urban noir quality.",
+        "aspect_ratio": "4:3"
+      },
+      "batch": 4,
+      "runtime": "Assets\\Resources\\Detective\\Art\\Generated\\evidence_letter.jpg",
+      "sha256": "dfd58ff38a802cbf7057243a7d324563b620eef3b9c3105c716cfaac44df2dce"
+    },
+    {
+      "id": "evidence_dismissal",
+      "group": "Evidence",
+      "path": "Originals\\Evidence\\evidence_dismissal.jpg",
+      "size": [
+        1152,
+        864
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\42.jpg",
+      "input": {
+        "prompt": "Photorealistic cinematic evidence photograph, 4:3 frame. A formal cold-white personnel notice rests on a blue-gray file folder, occupying the central two-thirds of the frame. A muted red rectangular stamp shape sits on the paper with no characters inside. Completely illegible blank document, no writing. Tactile paper, shallow depth of field, blue-gray shadows, restrained cool office light, film-still urban noir quality.",
+        "aspect_ratio": "4:3"
+      },
+      "batch": 4,
+      "runtime": "Assets\\Resources\\Detective\\Art\\Generated\\evidence_dismissal.jpg",
+      "sha256": "d6eda27173ce7da20324dd426fd369f62cb1ed2a33da5ff82ed8c26c18064b83"
+    },
+    {
+      "id": "evidence_victim_notes",
+      "group": "Evidence",
+      "path": "Originals\\Evidence\\evidence_victim_notes.jpg",
+      "size": [
+        1152,
+        864
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\43.jpg",
+      "input": {
+        "prompt": "Photorealistic cinematic evidence photograph, 4:3 frame. An open dark-green cloth notebook on a dark desk contains loose yellow research slips and tiny monochrome transaction photographs, with only restrained scribbles and no readable text. Distinct from a small brown leather pocket diary: this is a larger cloth-bound notebook. The open notebook occupies the central two-thirds of the frame. Tactile cloth, paper, and photo emulsion, shallow depth of field, blue-gray shadows, restrained warm amber lamp, film-still urban noir quality.",
+        "aspect_ratio": "4:3"
+      },
+      "batch": 4,
+      "runtime": "Assets\\Resources\\Detective\\Art\\Generated\\evidence_victim_notes.jpg",
+      "sha256": "be778aa24b1892dccfd9ecc2511ad135d0a1154941820745619e06a402d8ee04"
+    }
+  ]
+}

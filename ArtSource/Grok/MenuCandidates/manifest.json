@@ -1,0 +1,57 @@
+{
+  "session": "01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f",
+  "images": [
+    {
+      "file": "A_rain_alley.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\1.jpg",
+      "tool": "GROK CLI image_gen",
+      "prompt": {
+        "prompt": "Cinematic semi-realistic digital illustration of a rainy-night urban noir alley. Low street-level camera with a low horizon, a lone adult in a long dark trench coat and fedora seen from behind, standing slightly right of center, facing down a narrow old brick alley that recedes toward a distant warm gold street lamp at the far intersection. Wet cobblestones stretch into deep perspective with long lamp reflections, deep blue-gray night air, quiet cyan-purple neon glow leaking from the far street. The left third and the upper-center sky stay dark, empty, and low-detail so a game title can sit there. Moody mystery, spatial depth, painterly photoreal lighting, analog 1980s old-city brick and fire-escape architecture, widescreen 16:9.",
+        "aspect_ratio": "16:9"
+      }
+    },
+    {
+      "file": "B_neon_oldtown.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\2.jpg",
+      "tool": "GROK CLI image_gen",
+      "prompt": {
+        "prompt": "Refined hand-painted concept-art illustration of a rainy old-city street at night, slight high-angle view. A small lone adult in a long trench coat and fedora, seen from behind, walks in the lower-right corner. A vintage red telephone booth stands in the right midground among weathered shopfronts, iron fire-escape stairs, and wet asphalt that mirrors warm gold lamps and quiet cyan-purple neon. Deep blue-gray night with slightly richer but muted color, analog 1980s brick district. Clean foggy empty space from the upper left through the center of the frame for a game title overlay. Atmospheric painterly brushwork with visible brush texture, widescreen 16:9.",
+        "aspect_ratio": "16:9"
+      }
+    },
+    {
+      "file": "C_badge_clue.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\3.jpg",
+      "tool": "GROK CLI image_gen",
+      "prompt": {
+        "prompt": "Narrative cinematic still-life cover with photographic texture, rainy urban noir night. Extreme close foreground in the lower right: a round metal police shield badge with a blank unlettered face lying on wet dark pavement beside a small folded paper slip marked with one tiny dark stain. Shallow depth of field; the far background is a rainy old brick alley with warm gold lamp reflections, quiet cyan-purple neon, and a distant blurred figure in a trench coat. Deep blue-gray atmosphere, visible raindrops, quiet dark empty space in the center and upper left for a game title overlay. Subtle, grounded, widescreen 16:9.",
+        "aspect_ratio": "16:9"
+      }
+    },
+    {
+      "file": "D_city_rain.jpg",
+      "size": [
+        1280,
+        720
+      ],
+      "source": "C:\\Users\\Z\\.grok\\sessions\\E%3A%5CProjects%5CUnity%5CDetectiveInCity%5CArtSource%5CGrok%5CMenuCandidates\\01a0d3ad-05a1-7c10-b9c9-fed229b0bd9f\\images\\4.jpg",
+      "tool": "GROK CLI image_gen",
+      "prompt": {
+        "prompt": "Picture-book cinematic poster illustration of a wide rainy city intersection at night. A lone adult in a long trench coat and fedora, seen from behind, stands in the lower left looking toward the street. Soft misty contrast between distant modern financial towers and a nearby old brick district, golden street lamps glowing through blue-gray rain fog, quiet cyan-purple neon on analog shopfronts. Central building silhouettes stay low-contrast, dark, and quiet so a game title can sit in the middle and upper sky. Mature restrained oil-painting brushwork, deep blue-gray palette, quiet melancholy and atmospheric space, widescreen 16:9.",
+        "aspect_ratio": "16:9"
+      }
+    }
+  ]
+}

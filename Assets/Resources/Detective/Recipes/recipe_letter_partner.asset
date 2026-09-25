@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5db8261d70ea8324ca9a8720a5d4815a, type: 3}
+  m_Name: recipe_letter_partner
+  m_EditorClassIdentifier: Assembly-CSharp::Detective.DetectiveReasoningRecipe
+  recipeId: letter_partner
+  requiredClueIds:
+  - clue_letter_warning
+  - clue_former_partners
+  resultText: "\u7167\u7247\u652F\u6301\u4FE1\u4E2D\u5173\u4E8E\u65E7\u642D\u6863\u8EAB\u4EFD\u7684\u8BF4\u6CD5\uFF0C\u4F46\u4E0D\u80FD\u9A8C\u8BC1\u80CC\u53DB\u6307\u63A7\u3002\u5E94\u628A\u5DF2\u786E\u8BA4\u7684\u8EAB\u4EFD\u548C\u4FE1\u4E2D\u7684\u6307\u63A7\u5206\u5F00\u3002"
+  grantedClueId: 
+  voiceChanges: []
+  failFocusCost: 10
+  onceOnly: 1
+  freeSuccess: 0
